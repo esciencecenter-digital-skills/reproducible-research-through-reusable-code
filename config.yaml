@@ -51,7 +51,7 @@ contact: 'training@esciencecenter.nl'
 # Example -------------
 #
 # episodes:
-# - introduction.md
+# - github.md
 # - first-steps.md
 #
 # learners:
@@ -66,7 +66,7 @@ contact: 'training@esciencecenter.nl'
 
 # Order of episodes in your lesson
 episodes: 
-- introduction.md
+- github.md
 
 # Information for Learners
 learners: 
