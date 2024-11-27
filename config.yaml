@@ -67,6 +67,7 @@ contact: 'training@esciencecenter.nl'
 # Order of episodes in your lesson
 episodes: 
 - github.md
+- documentation.md
 
 # Information for Learners
 learners: 
