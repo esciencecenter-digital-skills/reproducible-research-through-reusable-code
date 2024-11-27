@@ -22,6 +22,9 @@
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/github.html</loc>
   </url>
   <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/good-code.html</loc>
+  </url>
+  <url>
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/images.html</loc>
   </url>
   <url>
@@ -49,6 +52,9 @@
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/github.html</loc>
   </url>
   <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/good-code.html</loc>
+  </url>
+  <url>
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/images.html</loc>
   </url>
   <url>
@@ -70,6 +76,12 @@
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/reference.html</loc>
   </url>
   <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/reusability-check.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/software-dependencies.html</loc>
+  </url>
+  <url>
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor-notes.html</loc>
   </url>
   <url>
@@ -83,5 +95,11 @@
   </url>
   <url>
     <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/reusability-check.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/software-dependencies.html</loc>
   </url>
 </urlset>
