@@ -244,7 +244,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Using Markdown</a>
+        <a href="github.html">1. Uploading a coding project to GitHub</a>
     </div>
 <!--/div.accordion-header-->
 
@@ -308,12 +308,12 @@
     <main id="main-content" class="main-content"><div class="container lesson-content">
         
         
-<section id="aio-introduction"><p>Content from <a href="introduction.html">Using Markdown</a></p>
+<section id="aio-github"><p>Content from <a href="github.html">Uploading a coding project to GitHub</a></p>
 <hr>
 <p>Last updated on 2024-11-27 |
 
-        <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/introduction.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
-<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 12 minutes</p>
+        <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/github.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 50 minutes</p>
 <div class="text-end">
           <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
         </div>
@@ -325,8 +325,7 @@
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do you write a lesson using Markdown and
-<a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?</li>
+<li>How do I share my changes with others on the web?</li>
 </ul>
 </div>
 </div>
@@ -336,138 +335,146 @@
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Explain how to use markdown with The Carpentries Workbench</li>
-<li>Demonstrate how to include pieces of code, figures, and nested
-challenge blocks</li>
+<li>Create a repository on GitHub</li>
+<li>Push to or pull from a remote repository.</li>
 </ul>
 </div>
 </div>
 </div>
 </div>
 </div>
-<section><h2 class="section-heading" id="introduction">Introduction<a class="anchor" aria-label="anchor" href="#introduction"></a>
+<section><h2 class="section-heading" id="creating-a-github-repository">Creating a GitHub repository<a class="anchor" aria-label="anchor" href="#creating-a-github-repository"></a>
 </h2>
 <hr class="half-width">
-<p>This is a lesson created via The Carpentries Workbench. It is written
-in <a href="https://pandoc.org/MANUAL.txt" class="external-link">Pandoc-flavored Markdown</a>
-for static files and <a href="https://rmarkdown.rstudio.com/" class="external-link">R
-Markdown</a> for dynamic files that can render code into output. Please
-refer to the <a href="https://carpentries.github.io/sandpaper-docs/" class="external-link">Introduction to The
-Carpentries Workbench</a> for full documentation.</p>
-<p>What you need to know is that there are three sections required for a
-valid Carpentries lesson:</p>
-<ol style="list-style-type: decimal">
-<li>
-<code>questions</code> are displayed at the beginning of the episode
-to prime the learner for the content.</li>
-<li>
-<code>objectives</code> are the learning objectives for an episode
-displayed with the questions.</li>
-<li>
-<code>keypoints</code> are displayed at the end of the episode to
-reinforce the objectives.</li>
-</ol>
-<div id="accordionInstructor1" class="accordion instructor-note accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
-  <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
-</button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
-<div class="accordion-body">
-<p>Inline instructor notes can help inform instructors of timing
-challenges associated with the lessons. They appear in the “Instructor
-View”</p>
-</div>
-</div>
-</div>
-</div>
-<div id="challenge-1-can-you-do-it" class="callout challenge">
+<p>You are going to add your existing project to GitHub</p>
+<div id="exercise-create-a-github-repository" class="callout discussion">
 <div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
+<i class="callout-icon" data-feather="message-circle"></i>
 </div>
-<div id="challenge-1-can-you-do-it" class="callout-inner">
-<h3 class="callout-title">Challenge 1: Can you do it?</h3>
+<div id="exercise-create-a-github-repository" class="callout-inner">
+<h3 class="callout-title">Exercise: Create a GitHub repository</h3>
 <div class="callout-content">
-<p>What is the output of this command?</p>
+<p>Log in to <a href="https://github.com" class="external-link">GitHub</a>, then click on the
+icon in the top right corner to create a new repository.</p>
+<figure><img src="../fig/github-create-repo-01.png" alt="Creating a Repository on GitHub (Step 1)" class="figure mx-auto d-block"></figure><ul>
+<li>Give your repository the name of your project.</li>
+<li>Make the repository Public</li>
+<li>Keep the box for “Add a README” unchecked.</li>
+<li>Keep “None” as options for both “Add .gitignore” and “Add a
+license.”</li>
+</ul>
+<p>Then click “Create Repository”.</p>
+<figure><img src="../fig/github-create-repo-02.png" alt="Creating a Repository on GitHub (Step 2)" class="figure mx-auto d-block"></figure><p>As soon as the repository is created, GitHub displays a page with a
+URL and some information on how to configure your local repository:</p>
+<figure><img src="../fig/github-create-repo-03.png" alt="Creating a Repository on GitHub (Step 3)" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="pushing-existing-code-to-github">Pushing existing code to GitHub<a class="anchor" aria-label="anchor" href="#pushing-existing-code-to-github"></a>
+</h2>
+<hr class="half-width">
+<p>Below are steps for pushing your existing code to GitHub using the
+command line.</p>
+<p>If you prefer uploading your project to GitHub using a git GUI like
+<a href="https://desktop.github.com/" class="external-link">GitHub Desktop</a> or <a href="https://www.sourcetreeapp.com/" class="external-link">Sourcetree</a> or an IDE with
+support for git like VSCode, you can also use that, but we do not
+provide instructions for it.</p>
+<div id="exercise-push-your-existing-code-to-github-using-the-command-line" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="exercise-push-your-existing-code-to-github-using-the-command-line" class="callout-inner">
+<h3 class="callout-title">Exercise: Push your existing code to GitHub using the command line</h3>
+<div class="callout-content">
+<p>On your computer, go to the directory of the project you want to add
+to GitHub using the terminal (git Bash for Windows). You can use the
+<code>cd</code> command to move into the directory. From here you run
+the following commands to “connect” your existing project to your repo
+on GitHub. (This is assuming that you created your repo on GitHub and it
+is currently empty)</p>
+<p>First do this to initialize git (version control).</p>
 <div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">R<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu">paste</span><span class="op">(</span><span class="st">"This"</span>, <span class="st">"new"</span>, <span class="st">"lesson"</span>, <span class="st">"looks"</span>, <span class="st">"good"</span><span class="op">)</span></span></code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">git</span> init</span></code></pre>
 </div>
-</div>
-</div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1"> Output </h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<div class="codewrapper">
-<h3 class="code-label">OUTPUT<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+<p>Then do this to add all your files to be “monitored.” If you have
+files that you want ignored, you need to add a <code>.gitignore</code>
+file but for the sake of simplicity, just use this example to learn.</p>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="output" tabindex="0"><code>[1] "This new lesson looks good"</code></pre>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">git</span> add .</span></code></pre>
+</div>
+<p>Then you commit and add a note in between the “” like “first commit”
+etc.</p>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Initial Commit"</span></span></code></pre>
+</div>
+<p>Now, we want to link to your project on GitHub. The home page of the
+repository on GitHub includes the URL string we need to identify it:</p>
+<figure><img src="../fig/github-find-repo-string.png" alt="Where to Find Repository URL on GitHub" class="figure mx-auto d-block"></figure><p>Make sure to copy the HTTPS link and not the SSH link.</p>
+<p>Then use below command to connect the local repository to the
+repository in GitHub</p>
+<pre><code>git remote add github &lt;project url&gt;</code></pre>
+<p>Test to see that it worked by doing</p>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="fu">git</span> remote <span class="at">-v</span></span></code></pre>
+</div>
+<p>You should see what your repo is linked to.</p>
+<p>Then you can push your changes to GitHub</p>
+<div class="codewrapper sourceCode" id="cb6">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
+</div>
+<p>Refresh the home page of your repository on GitHub to verify that
+your code is there.</p>
 </div>
 </div>
 </div>
-</div>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout challenge">
-<div class="callout-square">
-<i class="callout-icon" data-feather="zap"></i>
-</div>
-<div id="challenge-2-how-do-you-nest-solutions-within-challenge-blocks" class="callout-inner">
-<h3 class="callout-title">Challenge 2: how do you nest solutions within challenge blocks?</h3>
-<div class="callout-content">
-
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>You can add a line with at least three colons and a
-<code>solution</code> tag.</p>
-</div>
-</div>
-</div>
-</div>
-</section><section><h2 class="section-heading" id="figures">Figures<a class="anchor" aria-label="anchor" href="#figures"></a>
-</h2>
-<hr class="half-width">
-<p>You can use standard markdown for static figures with the following
-syntax:</p>
-<p><code>![optional caption that appears below the figure](figure url){alt='alt text for accessibility purposes'}</code></p>
-<figure><img src="https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg" alt="Blue Carpentries hex person logo with no text." class="figure mx-auto d-block"><div class="figcaption">You belong in The Carpentries!</div>
-</figure><div id="callout1" class="callout">
+<div id="wait-what-did-we-just-do" class="callout">
 <div class="callout-square">
 <i class="callout-icon" data-feather="bell"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Callout</h3>
+<div id="wait-what-did-we-just-do" class="callout-inner">
+<h3 class="callout-title">Wait, what did we just do?</h3>
 <div class="callout-content">
-<p>Callout sections can highlight information.</p>
-<p>They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present “asides”: content that is
-not central to the narrative of the lesson, e.g. by providing the answer
-to a commonly-asked question.</p>
+<p>These are the basics for uploading a project to GitHub. We realize we
+are skipping a lot of details on how git works and how to use it. Our
+excuse is we want reproducible code on GitHub within a day.</p>
+<p>If you want to learn more about git later, you can follow a <a href="https://swcarpentry.github.io/git-novice/" class="external-link">this great
+lesson</a>.</p>
 </div>
 </div>
 </div>
-</section><section><h2 class="section-heading" id="math">Math<a class="anchor" aria-label="anchor" href="#math"></a>
-</h2>
-<hr class="half-width">
-<p>One of our episodes contains <span class="math inline">\(\LaTeX\)</span> equations when describing how to
-create dynamic reports with {knitr}, so we now use mathjax to describe
-this:</p>
-<p><code>$\alpha = \dfrac{1}{(1 - \beta)^2}$</code> becomes: <span class="math inline">\(\alpha = \dfrac{1}{(1 - \beta)^2}\)</span></p>
-<p>Cool, right?</p>
+<div id="optional-exercise-my-code-is-already-on-github" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="optional-exercise-my-code-is-already-on-github" class="callout-inner">
+<h3 class="callout-title">Optional exercise: My code is already on GitHub</h3>
+<div class="callout-content">
+<p>If your code is already on GitHub you can try to help others pushing
+their code to GitHub, or explore the following topics:</p>
+<ul>
+<li><a href="https://swcarpentry.github.io/git-novice/" class="external-link">Familiarize
+yourself with the basics of <code>git</code></a></li>
+<li><a href="https://swcarpentry.github.io/git-novice/" class="external-link">Learn more about
+<code>.gitignore</code> files</a></li>
+<li>If you already know the basics of <code>git</code>, familiarize
+yourself with best practices in using git with <a href="https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html" class="external-link">this
+lesson</a>. This lesson assumes you have some project with changes to
+it, you can make some changes in the project you are working on today to
+mimic the lesson.</li>
+</ul>
+</div>
+</div>
+</div>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -476,14 +483,13 @@ this:</p>
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul>
-<li>Use <code>.md</code> files for episodes when you want static
-content</li>
-<li>Use <code>.Rmd</code> files for episodes when you need to generate
-output</li>
-<li>Run <code>sandpaper::check_lesson()</code> to identify any issues
-with your lesson</li>
-<li>Run <code>sandpaper::build_lesson()</code> to preview your lesson
-locally</li>
+<li>Use GitHub in the browser to create a remote repository</li>
+<li>Use <code>git init</code> to initialize a local repository</li>
+<li>Use <code>git add .</code> to add all your files to be “monitored”
+by git</li>
+<li>USe <code>git commit</code> to commit your changes</li>
+<li>Use <code>git push</code> to upload your local project to
+GitHub</li>
 </ul>
 </div>
 </div>
