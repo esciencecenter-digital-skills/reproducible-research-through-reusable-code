@@ -67,8 +67,11 @@ contact: 'training@esciencecenter.nl'
 # Order of episodes in your lesson
 episodes: 
 - github.md
+- software-dependencies.md
 - documentation.md
+- good-code.md
 - further-improvements.md
+- reusability-check.md
 
 # Information for Learners
 learners: 
