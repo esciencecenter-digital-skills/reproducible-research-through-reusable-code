@@ -68,6 +68,7 @@ contact: 'training@esciencecenter.nl'
 episodes: 
 - github.md
 - documentation.md
+- further-improvements.md
 
 # Information for Learners
 learners: 
