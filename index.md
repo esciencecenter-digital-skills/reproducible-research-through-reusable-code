@@ -2,8 +2,5 @@
 site: sandpaper::sandpaper_site
 ---
 
-This is a new lesson built with [The Carpentries Workbench][workbench]. 
-
-
-[workbench]: https://carpentries.github.io/sandpaper-docs
-
+This workshop teaches you the skills to make your code reusable by others. 
+You will practice these skills by directly applying them to your own project. Inevitably, this will make your research more reproducible.
