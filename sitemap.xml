@@ -1,45 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/404.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/CODE_OF_CONDUCT.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/LICENSE.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/index.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/404.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/CODE_OF_CONDUCT.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/LICENSE.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/404.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/index.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/CODE_OF_CONDUCT.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/introduction.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/profiles.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/aio.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/instructor/reference.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/images.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/introduction.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/index.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/profiles.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/instructor-notes.html</loc>
   </url>
   <url>
-    <loc>https://carpentries.github.io/workbench-template-md/reference.html</loc>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor-notes.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/key-points.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/profiles.html</loc>
+  </url>
+  <url>
+    <loc>https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/reference.html</loc>
   </url>
 </urlset>
