@@ -252,6 +252,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush3">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading3">
+        <a href="documentation.html">2. Document your research software</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -495,6 +507,301 @@ GitHub</li>
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
+</section></section><section id="aio-documentation"><p>Content from <a href="documentation.html">Document your research software</a></p>
+<hr>
+<p>Last updated on 2024-11-27 |
+
+        <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/documentation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>What can I do to make my project more easily understandable?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<ul>
+<li>Know what makes a good README file</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="writing-good-readme-files">Writing good README files<a class="anchor" aria-label="anchor" href="#writing-good-readme-files"></a>
+</h2>
+<hr class="half-width">
+<p>The README file is the first thing a user/collaborator sees. It
+should include:</p>
+<ul>
+<li>A descriptive project title</li>
+<li>Motivation (why the project exists)</li>
+<li>How to setup</li>
+<li>Copy-pastable quick start code example</li>
+<li>Link or instructions for contributing</li>
+<li>Recommended citation</li>
+</ul>
+<div id="exercise-readme-draft-or-improve-a-readme-for-your-project" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="exercise-readme-draft-or-improve-a-readme-for-your-project" class="callout-inner">
+<h3 class="callout-title">Exercise README: Draft or improve a README for your project</h3>
+<div class="callout-content">
+<p>Create a new file called README.md in your local project (or improve
+the README.md file for your project).</p>
+<p>You can work individually, but you could also discuss whether
+anything can be improved on your neighbour’s README file(s).</p>
+<p>Think about the user (which can be a future you) of your project,
+what does this user need to know to use or contribute to the project?
+And how do you make your project attractive to use or contribute to?</p>
+<p>(Optional): Try the <a href="https://hemingwayapp.com/" class="external-link uri">https://hemingwayapp.com/</a> to analyse your README file
+and make your writing bold and clear.</p>
+</div>
+</div>
+</div>
+<div id="uploading-your-readme-file-to-github" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="uploading-your-readme-file-to-github" class="callout-inner">
+<h3 class="callout-title">Uploading your README file to GitHub</h3>
+<div class="callout-content">
+<p>Follow these steps to add (the changes to) your README file to
+GitHub:</p>
+<ol style="list-style-type: decimal">
+<li>Mark your changes as staged:</li>
+</ol>
+<div class="codewrapper sourceCode" id="cb1">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">git</span> add README.md</span></code></pre>
+</div>
+<ol start="2" style="list-style-type: decimal">
+<li>Commit your changes:</li>
+</ol>
+<div class="codewrapper sourceCode" id="cb2">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update README.md"</span></span></code></pre>
+</div>
+<ol start="3" style="list-style-type: decimal">
+<li>Push your changes to GitHub:</li>
+</ol>
+<div class="codewrapper sourceCode" id="cb3">
+<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
+</div>
+<p>Go to your GitHub repository and refresh the home page to see how the
+README file becomes a sort of landing page for your project.</p>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="optional-other-types-of-documentation-">(Optional) Other types of documentation.<a class="anchor" aria-label="anchor" href="#optional-other-types-of-documentation-"></a>
+</h2>
+<hr class="half-width">
+<div class="section level3">
+<h3 id="in-code-documentation">In-code documentation<a class="anchor" aria-label="anchor" href="#in-code-documentation"></a>
+</h3>
+<p>In-code documentation:</p>
+<ul>
+<li>Makes code more understandable</li>
+<li>Explains decisions we made</li>
+</ul>
+<div class="section level4">
+<h4 id="when-not-to-use-in-code-documentation">When not to use in-code documentation:<a class="anchor" aria-label="anchor" href="#when-not-to-use-in-code-documentation"></a>
+</h4>
+<ul>
+<li>When the code is self-explanatory</li>
+<li>To replace good variable/function names</li>
+<li>To replace version control</li>
+<li>To keep old (zombie) code around</li>
+</ul>
+</div>
+<div class="section level4">
+<h4 id="readable-code-vs-commented-code">Readable code vs commented code<a class="anchor" aria-label="anchor" href="#readable-code-vs-commented-code"></a>
+</h4>
+<div class="codewrapper sourceCode" id="cb4">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="co"># convert from degrees celsius to fahrenheit</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="kw">def</span> convert(d):</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>    <span class="cf">return</span> d <span class="op">*</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">+</span> <span class="dv">32</span></span></code></pre>
+</div>
+<p>vs</p>
+<div class="codewrapper sourceCode" id="cb5">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="kw">def</span> celsius_to_fahrenheit(degrees):</span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>    <span class="cf">return</span> degrees <span class="op">*</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">+</span> <span class="dv">32</span></span></code></pre>
+</div>
+<div id="writing-good-comments---in-code-1-comments" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="writing-good-comments---in-code-1-comments" class="callout-inner">
+<h3 class="callout-title">Writing good comments - In-code-1: Comments</h3>
+<div class="callout-content">
+<p>Let’s take a look at two example comments (comments in Python start
+with <code>#</code>):</p>
+<p><strong>Comment A</strong></p>
+<div class="codewrapper sourceCode" id="cb6">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>  <span class="co"># now we check if temperature is below -50</span></span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>  <span class="cf">if</span> temperature <span class="op">&lt;</span> <span class="op">-</span><span class="dv">50</span>:</span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"ERROR: temperature is too low"</span>)</span></code></pre>
+</div>
+<p><strong>Comment B</strong></p>
+<div class="codewrapper sourceCode" id="cb7">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>  <span class="co"># we regard temperatures below -50 degrees as measurement errors</span></span>
+<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>  <span class="cf">if</span> temperature <span class="op">&lt;</span> <span class="op">-</span><span class="dv">50</span>:</span>
+<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"ERROR: temperature is too low"</span>)</span></code></pre>
+</div>
+<p><strong>Which of these comments is more useful? Can you explain
+why?</strong></p>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<ul>
+<li>
+<strong>Comment A</strong> describes <strong>what</strong> happens
+in this piece of code. This can be useful for somebody who has never
+seen Python or a program, but for somebody who has, it can feel like a
+redundant commentary.</li>
+<li>
+<strong>Comment B</strong> is probably more useful as it describes
+<strong>why</strong> this piece of code is there, i.e. its
+<strong>purpose</strong>.</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="section level3">
+<h3 id="what-are-docstrings-and-how-can-they-be-useful">What are “docstrings” and how can they be useful?<a class="anchor" aria-label="anchor" href="#what-are-docstrings-and-how-can-they-be-useful"></a>
+</h3>
+<p>Here is function <code>fahrenheit_to_celsius</code> which converts
+temperature in Fahrenheit to Celsius.</p>
+<p>The first set of examples uses <strong>regular comments</strong>:</p>
+<div class="codewrapper sourceCode" id="cb8">
+<h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="co"># This function converts a temperature in Fahrenheit to Celsius.</span></span>
+<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="kw">def</span> fahrenheit_to_celsius(temp_f: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a>    temp_c <span class="op">=</span> (temp_f <span class="op">-</span> <span class="fl">32.0</span>) <span class="op">*</span> (<span class="fl">5.0</span><span class="op">/</span><span class="fl">9.0</span>)</span>
+<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a>    <span class="cf">return</span> temp_c</span></code></pre>
+</div>
+<p>The second set uses <strong>docstrings or similar concepts</strong>.
+Please compare the two (above and below):</p>
+<div class="codewrapper sourceCode" id="cb9">
+<h3 class="code-label">PY<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
+</h3>
+<pre class="sourceCode py" tabindex="0"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="kw">def</span> fahrenheit_to_celsius(temp_f: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="co">    Converts a temperature in Fahrenheit to Celsius.</span></span>
+<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a><span class="co">    Parameters</span></span>
+<span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a><span class="co">    ----------</span></span>
+<span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a><span class="co">    temp_f : float</span></span>
+<span id="cb9-8"><a href="#cb9-8" tabindex="-1"></a><span class="co">        The temperature in Fahrenheit.</span></span>
+<span id="cb9-9"><a href="#cb9-9" tabindex="-1"></a></span>
+<span id="cb9-10"><a href="#cb9-10" tabindex="-1"></a><span class="co">    Returns</span></span>
+<span id="cb9-11"><a href="#cb9-11" tabindex="-1"></a><span class="co">    -------</span></span>
+<span id="cb9-12"><a href="#cb9-12" tabindex="-1"></a><span class="co">    float</span></span>
+<span id="cb9-13"><a href="#cb9-13" tabindex="-1"></a><span class="co">        The temperature in Celsius.</span></span>
+<span id="cb9-14"><a href="#cb9-14" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb9-15"><a href="#cb9-15" tabindex="-1"></a></span>
+<span id="cb9-16"><a href="#cb9-16" tabindex="-1"></a>    temp_c <span class="op">=</span> (temp_f <span class="op">-</span> <span class="fl">32.0</span>) <span class="op">*</span> (<span class="fl">5.0</span><span class="op">/</span><span class="fl">9.0</span>)</span>
+<span id="cb9-17"><a href="#cb9-17" tabindex="-1"></a>    <span class="cf">return</span> temp_c</span></code></pre>
+</div>
+<p>Docstrings can do a bit more than just comments: - Tools can generate
+help text automatically from the docstrings. - Tools can generate
+documentation pages automatically from code.</p>
+<p>It is common to write docstrings for functions, classes, and
+modules.</p>
+<p>Good docstrings describe: - What the function does - What goes in
+(including the type of the input variables) - What goes out (including
+the return type)</p>
+<p><strong>Naming is documentation</strong>: Giving explicit,
+descriptive names to your code segments (functions, classes, variables)
+already provides very useful and important documentation. In practice
+you will find that for simple functions it is unnecessary to add a
+docstring when the function name and variable names already give enough
+information.</p>
+</div>
+<div class="section level3">
+<h3 id="userapi-documentation">User/API documentation<a class="anchor" aria-label="anchor" href="#userapi-documentation"></a>
+</h3>
+<ul>
+<li>What if a README file is not enough?</li>
+<li>How do I easily create user documentation?</li>
+</ul>
+</div>
+<div class="section level3">
+<h3 id="tools">Tools<a class="anchor" aria-label="anchor" href="#tools"></a>
+</h3>
+<p>You can use the following tools to generate user or API
+documentation:</p>
+<div class="section level4">
+<h4 id="sphinx-documentation-generator">Sphinx (documentation generator)<a class="anchor" aria-label="anchor" href="#sphinx-documentation-generator"></a>
+</h4>
+<ul>
+<li>creates nicely-formatted HTML pages out of .md or .rst files</li>
+<li>programming language independent</li>
+</ul>
+</div>
+<div class="section level4">
+<h4 id="github-pages-deploy-your-documentation">Github pages (deploy your documentation)<a class="anchor" aria-label="anchor" href="#github-pages-deploy-your-documentation"></a>
+</h4>
+<ul>
+<li>set up inside your GitHub repository</li>
+<li>automatically deploys your Sphinx-generated documentation</li>
+</ul>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>Good README files provide a good landing place for anyone that is
+new to your project</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
+</div>
+</div>
 </section></section>
 </div>
     </main>
