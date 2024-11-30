@@ -1,7 +1,7 @@
 ---
 title: "Software dependencies"
 teaching: 5
-exercises: 30
+exercises: 20
 editor_options: 
   markdown: 
     wrap: 72
@@ -493,6 +493,9 @@ download the appropriate version of all dependencies.
 on their machine.
 
 :::
+
+Source of these exercises are the [Introduction to Reproducible Publications with RStudio](https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html)
+and [Tools for Reproducible Science](https://ecorepsci.github.io/reproducible-science/renv.html) lessons.
 
 
 ::: keypoints
