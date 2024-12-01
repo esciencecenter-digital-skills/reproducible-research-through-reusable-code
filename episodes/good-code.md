@@ -587,8 +587,13 @@ fahr_to_celsius <- function(temp) {
 :::
 
 
+The Modular coding section is based on the following sources:
 
-
+- [Modular Code Development](https://esciencecenter-digital-skills.github.io/good-practices-lesson/1-modular-code.html) 
+from Good practices in research software development
+- [Functions explained](https://swcarpentry.github.io/r-novice-gapminder/10-functions.html) 
+from R for Reproducible Scientific Analysis Software Carpentry lesson
+- [Functions](https://r4ds.hadley.nz/functions) chapter from R for Data Science (2e)
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
