@@ -95,7 +95,146 @@ over time.
 A good rule of thumb is to consider writing a function whenever you’ve copied and pasted a 
 block of code more than twice (i.e. you now have three copies of the same code).
 
-## Modularity in Python
+### Defining a function
+
+::: tab
+
+### Defining a function in R
+
+Let's open a new R script file and call it functions-lesson.R.
+
+The general structure of a function is:
+
+```r
+my_function <- function(parameters) {
+  # perform action
+  # return value
+}
+```
+
+Let's define a function `fahr_to_kelvin()` that converts temperatures from
+Fahrenheit to Kelvin:
+
+```r
+fahr_to_kelvin <- function(temp) {
+  kelvin <- ((temp - 32) * (5 / 9)) + 273.15
+  return(kelvin)
+}
+```
+
+We define `fahr_to_kelvin()` by assigning it to the output of `function`. The
+list of argument names are contained within parentheses.   Next, the
+body of the function--the
+statements that are executed when it runs--is contained within curly braces
+(`{}`). The statements in the body are indented by two spaces. This makes the
+code easier to read but does not affect how the code operates.
+
+It is useful to think of creating functions like writing a cookbook. First you define 
+the "ingredients" that your function needs. In this case, we only need one ingredient 
+to use our function: "temp". After we list our ingredients, we then say what we will do 
+with them, in this case, we are taking our ingredient and applying a set of mathematical 
+operators to it.
+
+When we call the function, the values we pass to it as arguments are assigned to
+those variables so that we can use them inside the function. Inside the
+function, we use a [return
+statement](https://swcarpentry.github.io/r-novice-gapminder/reference.html#return-statement) 
+to send a result back to whoever asked for it.
+
+Let's try running our function.
+Calling our own function is no different from calling any other function:
+
+```r
+# freezing point of water
+fahr_to_kelvin(32)
+```
+
+```output
+[1] 273.15
+```
+
+```r
+# boiling point of water
+fahr_to_kelvin(212)
+```
+```output
+[1] 373.15
+```
+
+### Defining a function in Python
+Let's open a new Python script file and call it `functions-lesson.py` 
+
+The general structure of a function is:
+
+```python
+def my_function(parameters):
+  # perform action
+  # return value
+```
+
+Let's define a function `fahr_to_kelvin()` that converts temperatures from
+Fahrenheit to Kelvin:
+
+```python
+def fahr_to_kelvin(temp):
+    kelvin = ((temp - 32) * (5 / 9)) + 273.15
+    return kelvin 
+```
+
+We define `fahr_to_kelvin()` by using the `def` keyword. The
+list of argument names are contained within parentheses.   
+
+Next, the
+body of the function--the
+statements that are executed when it runs--is indicated with indentation. 
+The statements in the body are indented by four spaces.
+
+It is useful to think of creating functions like writing a cookbook. First you define 
+the "ingredients" that your function needs. In this case, we only need one ingredient 
+to use our function: "temp". After we list our ingredients, we then say what we will do 
+with them, in this case, we are taking our ingredient and applying a set of mathematical 
+operators to it.
+
+When we call the function, the values we pass to it as arguments are assigned to
+those variables so that we can use them inside the function. Inside the
+function, we use a return statement
+to send a result back to whoever asked for it.
+
+Let's try running our function.
+Calling our own function is no different from calling any other function:
+
+```python
+# freezing point of water
+fahr_to_kelvin(32)
+```
+
+```output
+[1] 273.15
+```
+
+```python
+# boiling point of water
+fahr_to_kelvin(212)
+```
+```output
+[1] 373.15
+```
+
+:::
+
+::: challenge
+## Challenge: Identify code that can be put in a function
+In your own project: identify code that would fit better in a function.
+Try to look for pieces of code that you repeat throughout your project.
+
+[Create an issue in your project](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue)
+for each possible function that you find. (Actually implementing the function is beyond the scope of this workshop).
+
+GitHub issues are a good way to track your progress and to-do list. 
+As well as a way for others to signal issues with your code.
+:::
+
+## (Optional) Modularity in Python
 
 ::: challenge
 
@@ -161,7 +300,7 @@ Refactor the code by extracting functions without altering its functionality.
 
 Share your answers in the collaborative document.
 
-::: solution 
+:::: solution 
 
 ## Solution 1 - Basic
 
@@ -300,8 +439,8 @@ if __name__ == "__main__":
     print(convert_temperature(-500, "B"))
 ```
 
-:::::::::::::::::::::::::::::::::
-:::::::::::::::::::::::: solution
+::::
+:::: solution
 
 ## Solution 2 - Advanced
 
@@ -433,85 +572,12 @@ if __name__ == "__main__":
     print(convert_temperature(0, "X"))
 ```
 
+::::
 :::
 
-:::
 
+## (Optional): Writing good functions in R
 
-## Writing functions in R
-
-### Defining a function
-
-Let's open a new R script file and call it functions-lesson.R.
-
-The general structure of a function is:
-
-```r
-my_function <- function(parameters) {
-  # perform action
-  # return value
-}
-```
-
-Let's define a function `fahr_to_kelvin()` that converts temperatures from
-Fahrenheit to Kelvin:
-
-```r
-fahr_to_kelvin <- function(temp) {
-  kelvin <- ((temp - 32) * (5 / 9)) + 273.15
-  return(kelvin)
-}
-```
-
-We define `fahr_to_kelvin()` by assigning it to the output of `function`. The
-list of argument names are contained within parentheses.   Next, the
-body of the function--the
-statements that are executed when it runs--is contained within curly braces
-(`{}`). The statements in the body are indented by two spaces. This makes the
-code easier to read but does not affect how the code operates.
-
-It is useful to think of creating functions like writing a cookbook. First you define 
-the "ingredients" that your function needs. In this case, we only need one ingredient 
-to use our function: "temp". After we list our ingredients, we then say what we will do 
-with them, in this case, we are taking our ingredient and applying a set of mathematical 
-operators to it.
-
-When we call the function, the values we pass to it as arguments are assigned to
-those variables so that we can use them inside the function. Inside the
-function, we use a [return
-statement](https://swcarpentry.github.io/r-novice-gapminder/reference.html#return-statement) 
-to send a result back to whoever asked for it.
-
-:::  callout
-
-## Tip
-
-One feature unique to R is that the return statement is not required.
-R automatically returns whichever variable is on the last line of the body
-of the function. But for clarity, we will explicitly define the
-return statement.
-
-:::
-
-Let's try running our function.
-Calling our own function is no different from calling any other function:
-
-```r
-# freezing point of water
-fahr_to_kelvin(32)
-```
-
-```output
-[1] 273.15
-```
-
-```r
-# boiling point of water
-fahr_to_kelvin(212)
-```
-```output
-[1] 373.15
-```
 ::: challenge
 
 ## Challenge 1
@@ -521,7 +587,7 @@ Kelvin and returns that temperature in Celsius.
 
 Hint: To convert from Kelvin to Celsius you subtract 273.15
 
-::: solution
+:::: solution
 
 ## Solution to challenge 1
 
@@ -535,7 +601,7 @@ kelvin_to_celsius <- function(temp) {
 }
 ```
 
-:::
+::::
 
 :::
 
@@ -567,7 +633,7 @@ Define the function to convert directly from Fahrenheit to Celsius,
 by reusing the two functions above (or using your own functions if you
 prefer).
 
-:::  solution
+::::  solution
 
 ## Solution to challenge 2
 
@@ -582,7 +648,7 @@ fahr_to_celsius <- function(temp) {
 }
 ```
 
-:::
+::::
 
 :::
 
