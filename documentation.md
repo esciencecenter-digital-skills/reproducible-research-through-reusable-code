@@ -178,16 +178,21 @@ def fahrenheit_to_celsius(temp_f: float) -> float:
     return temp_c
 ```
 
-Docstrings can do a bit more than just comments:
-- Tools can generate help text automatically from the docstrings.
-- Tools can generate documentation pages automatically from code.
+Docstrings can do a bit more than just comments:  
+
+- Tools can generate help text automatically from the docstrings.  
+
+- Tools can generate documentation pages automatically from code.  
 
 It is common to write docstrings for functions, classes, and modules.
 
-Good docstrings describe:
-- What the function does
-- What goes in (including the type of the input variables)
-- What goes out (including the return type)
+Good docstrings describe:  
+
+- What the function does.  
+
+- What goes in (including the type of the input variables). 
+
+- What goes out (including the return type).  
 
 **Naming is documentation**:
 Giving explicit, descriptive names to your code segments (functions, classes,
