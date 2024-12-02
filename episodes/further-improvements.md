@@ -16,6 +16,7 @@ exercises: 45
 - Add `howfairis` badge to your README file
 - Add information about how to cite your project
 - Link your project to Zenodo
+- Add data to your project
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -42,7 +43,7 @@ Read more about FAIR software at [https://fair-software.nl/](https://fair-softwa
 :::
 
 ::: challenge
-Add information about how to cite your project.
+## Add information about how to cite your project.
 
 Use [cff-initializer](https://citation-file-format.github.io/cff-initializer-javascript/#/) to create a CITATION.cff 
 file for your project.
@@ -50,13 +51,35 @@ file for your project.
 :::
 
 ::: challenge
-Link your project to Zenodo.
+## Link your project to Zenodo.
 
 1. Create an account at [Zenodo](https://zenodo.org/)
 2. [Link your GitHub repository to Zenodo](https://zenodo.org/account/settings/github/). Follow the instructions on the page.
 
 :::
 
+::: challenge
+## Add data to your project.
+
+Make sure you are allowed to publish the data (most importantly, it should be de-identified 
+in the case of human participants). 
+
+Publish the data in a data repository and include the link to your data set in your GitHub 
+repository. Data repositories offer organized and structured storage and access of data, 
+ensuring that data sets abide by the [FAIR principles](https://www.go-fair.org/fair-principles/)
+, allowing data are findable, accessible, interoperable, and reusable (FAIR) as much as 
+possible. 
+
+Alternatively, you can include a data file in your GitHub repository. In case you are unable 
+to share the data, include dummy data in the project.
+
+Make sure all data files are saved in a 
+[sustainable file format](https://dans.knaw.nl/en/file-formats/) such as .csv, 
+and that the files and variables are [properly named](https://doi.org/10.5281/zenodo.7551576)
+and clearly described.
+
+
+:::
 
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
