@@ -380,39 +380,10 @@ by git</li>
 GitHub</li>
 </ul></section><section id="software-dependencies"><h2 class="section-heading"><a href="software-dependencies.html">Software dependencies</a></h2>
 <hr class="half-width">
-<p>Python keypoints:</p>
 <ul>
-<li><p>Virtual environments keep Python versions and dependencies
-required by different projects separate.</p></li>
-<li><p>A virtual environment is itself a directory structure.</p></li>
-<li><p>Use <code>venv</code> to create and manage Python virtual
-environments.</p></li>
-<li><p>Use <code>pip</code> to install and manage Python external
-(third-party) libraries.</p></li>
-<li><p><code>pip</code> allows you to declare all dependencies for a
-project in a separate file (by convention called
-<code>requirements.txt</code>) which can be shared with
-collaborators/users and used to replicate a virtual
-environment.</p></li>
-<li><p>Use <code>python3 -m pip freeze &gt; requirements.txt</code> to
-take snapshot of your project’s dependencies.</p></li>
-<li><p>Use <code>python3 -m pip install -r requirements.txt</code> to
-replicate someone else’s virtual environment on your machine from the
-<code>requirements.txt</code> file.</p></li>
-</ul>
-<p>R keypoints:</p>
-<ul>
-<li><p><code>renv</code> is a handy tool for capturing your project’s
-package dependencies</p></li>
-<li><p>Initialize renv using <code>renv::init()</code></p></li>
-<li><p>Share project sources (data and code), and include
-<code>renv.lock</code>, <code>.Rprofile</code>, and
-<code>renv/activate.R</code> to ensure that collaborators download and
-install the right version of the packages when starting the
-project.</p></li>
-<li><p>When a collaborator opens the project, <code>renv</code> will
-automatically bootstrap and download the appropriate version of all
-dependencies.</p></li>
+<li>Recording dependencies with versions can make it easier for the next
+person to execute your code</li>
+<li>There are many tools to record dependencies</li>
 </ul></section><section id="documentation"><h2 class="section-heading"><a href="documentation.html">Document your research software</a></h2>
 <hr class="half-width">
 <ul>
