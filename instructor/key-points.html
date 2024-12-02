@@ -380,8 +380,39 @@ by git</li>
 GitHub</li>
 </ul></section><section id="software-dependencies"><h2 class="section-heading"><a href="software-dependencies.html">Software dependencies</a></h2>
 <hr class="half-width">
+<p>Python keypoints:</p>
 <ul>
-<li>FIXME</li>
+<li><p>Virtual environments keep Python versions and dependencies
+required by different projects separate.</p></li>
+<li><p>A virtual environment is itself a directory structure.</p></li>
+<li><p>Use <code>venv</code> to create and manage Python virtual
+environments.</p></li>
+<li><p>Use <code>pip</code> to install and manage Python external
+(third-party) libraries.</p></li>
+<li><p><code>pip</code> allows you to declare all dependencies for a
+project in a separate file (by convention called
+<code>requirements.txt</code>) which can be shared with
+collaborators/users and used to replicate a virtual
+environment.</p></li>
+<li><p>Use <code>python3 -m pip freeze &gt; requirements.txt</code> to
+take snapshot of your project’s dependencies.</p></li>
+<li><p>Use <code>python3 -m pip install -r requirements.txt</code> to
+replicate someone else’s virtual environment on your machine from the
+<code>requirements.txt</code> file.</p></li>
+</ul>
+<p>R keypoints:</p>
+<ul>
+<li><p><code>renv</code> is a handy tool for capturing your project’s
+package dependencies</p></li>
+<li><p>Initialize renv using <code>renv::init()</code></p></li>
+<li><p>Share project sources (data and code), and include
+<code>renv.lock</code>, <code>.Rprofile</code>, and
+<code>renv/activate.R</code> to ensure that collaborators download and
+install the right version of the packages when starting the
+project.</p></li>
+<li><p>When a collaborator opens the project, <code>renv</code> will
+automatically bootstrap and download the appropriate version of all
+dependencies.</p></li>
 </ul></section><section id="documentation"><h2 class="section-heading"><a href="documentation.html">Document your research software</a></h2>
 <hr class="half-width">
 <ul>
@@ -390,7 +421,17 @@ new to your project</li>
 </ul></section><section id="good-code"><h2 class="section-heading"><a href="good-code.html">Coding conventions and modular coding</a></h2>
 <hr class="half-width">
 <ul>
-<li>FIXME</li>
+<li>Coding conventions help you create more readable code that is easier
+to reuse and contribute to.</li>
+<li>Consistently formatted code including descriptive variable and
+function names is easier to read and write</li>
+<li>Software is built from smaller, self-contained elements, each
+handling specific tasks.</li>
+<li>Modular code enhances robustness, readability, and ease of
+maintenance.</li>
+<li>Modules can be reused across projects, promoting efficiency.</li>
+<li>Good modules perform limited, defined tasks and have descriptive
+names.</li>
 </ul></section><section id="further-improvements"><h2 class="section-heading"><a href="further-improvements.html">Further improvements to your project</a></h2>
 <hr class="half-width">
 <ul>
@@ -399,7 +440,8 @@ project.</li>
 </ul></section><section id="reusability-check"><h2 class="section-heading"><a href="reusability-check.html">Reusability check</a></h2>
 <hr class="half-width">
 <ul>
-<li>FIXME</li>
+<li>A check by another pair of eyes is the best way to learn how
+reproducible and reusable your code is</li>
 </ul></section>
 </div>
     </main>
@@ -448,8 +490,8 @@ project.</li>
   "url": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/key-points.html",
   "identifier": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/key-points.html",
   "dateCreated": "2024-11-27",
-  "dateModified": "2024-11-27",
-  "datePublished": "2024-11-27"
+  "dateModified": "2024-12-02",
+  "datePublished": "2024-12-02"
 }
 
   </script><script>
