@@ -49,9 +49,13 @@ information on how to configure your local repository:
 
 ## Pushing existing code to GitHub
 Below are steps for pushing your existing code to GitHub using the command line.
+We recommend using the command line. 
+You need to get used to it, but once you are used to it will make your life as a coder easier.
+
+First install Shell and Git. Please refer to [these installation instructions](https://coderefinery.github.io/installation/git-in-terminal/#installation).
 
 If you prefer uploading your project to GitHub using a git GUI like [GitHub Desktop](https://desktop.github.com/) 
-or [Sourcetree](https://www.sourcetreeapp.com/)
+or [Sourcetree](https://www.sourcetreeapp.com/),
 or an IDE with support for git like VSCode, 
 you can also use that, but we do not provide instructions for it. 
 
