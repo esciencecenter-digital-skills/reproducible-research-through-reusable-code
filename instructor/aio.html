@@ -696,7 +696,7 @@ try to re-run their code before adapting it.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-1-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-Pythonvirtualenv">
 <p><strong>A</strong>: You find a couple of library imports across the
 code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -729,7 +729,7 @@ python==3.8
 someproject==1.2.3
 anotherproject==2.3.4</code></pre>
 </div>
-<div id="nav-tabpanel-1-R" class="tab-pane" aria-labelledby="nav-tab-1-R" role="tabpanel">
+<div id="nav-tabpanel-1-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-R">
 <p><strong>A</strong>: You find a couple of <code>library()</code> or
 <code>require()</code> calls across the code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -778,7 +778,7 @@ anotherproject (== 2.3.4)</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p><strong>A</strong>: It will be tedious to collect the dependencies
 one by one. And after the tedious process you will still not know which
@@ -827,7 +827,7 @@ communicate this information?</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-2" class="tab-content">
-<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-2-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-2-Pythonvirtualenv">
 <p>Try this in your own project:</p>
 <pre class="console"><code>$ pip freeze &gt; requirements.txt</code></pre>
 <p>Have a look at the generated file and discuss what you see.</p>
@@ -838,7 +838,7 @@ over to the <a href="https://carpentries-incubator.github.io/python-intermediate
 Intermediate Research Software Development Skills (Python)</a>
 lesson.</p>
 </div>
-<div id="nav-tabpanel-2-R" class="tab-pane" aria-labelledby="nav-tab-2-R" role="tabpanel">
+<div id="nav-tabpanel-2-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-R">
 <p>This example uses renv.</p>
 <p>Try to “save” and “load” the state of your project library using
 <code>renv::snapshot()</code> and <code>renv::restore()</code>. See
@@ -875,7 +875,7 @@ dependencies to GitHub:</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-3" class="tab-content">
-<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-3-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-3-Pythonvirtualenv">
 <ol style="list-style-type: decimal">
 <li>Mark your changes as staged:</li>
 </ol>
@@ -901,7 +901,7 @@ dependencies to GitHub:</p>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
 </div>
 </div>
-<div id="nav-tabpanel-3-R" class="tab-pane" aria-labelledby="nav-tab-3-R" role="tabpanel">
+<div id="nav-tabpanel-3-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-3-R">
 <ol style="list-style-type: decimal">
 <li>Mark your changes as staged (share not only the lock file, but also
 the .RProfile and activate.R files needed to recreate the
@@ -959,7 +959,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-documentation"><p>Content from <a href="documentation.html">Document your research software</a></p>
 <hr>
-<p>Last updated on 2024-12-02 |
+<p>Last updated on 2024-12-03 |
 
         <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/documentation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 15 minutes</p>
@@ -996,10 +996,9 @@ any links that you are not going to use.
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor1" aria-expanded="false" aria-controls="collapseInstructor1">
   <h3 class="accordion-header" id="headingInstructor1">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor1" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor1" aria-labelledby="headingInstructor1">
+<div id="collapseInstructor1" class="accordion-collapse collapse" aria-labelledby="headingInstructor1" data-bs-parent="#accordionInstructor1">
 <div class="accordion-body">
-<p>Use <a href="https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/documentation-slides" class="external-link">these
-slides</a> as a guidance.</p>
+<p>Use <a href="https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/documentation-slides" target="_blank" class="external-link">these slides</a> as a guidance.</p>
 <p>The main purpose of this lesson is to make sure participants
 understand that DOCUMENTATION IS IMPORTANT. The goal is more to trigger
 participants then to teach them all the different ways one could
@@ -1036,8 +1035,8 @@ anything can be improved on your neighbour’s README file(s).</p>
 <p>Think about the user (which can be a future you) of your project,
 what does this user need to know to use or contribute to the project?
 And how do you make your project attractive to use or contribute to?</p>
-<p>(Optional): Try the <a href="https://hemingwayapp.com/" class="external-link uri">https://hemingwayapp.com/</a> to analyse your README file
-and make your writing bold and clear.</p>
+<p>(Optional): Try the <a href="https://hemingwayapp.com/%7Btarget=%22_blank" class="external-link uri">https://hemingwayapp.com/{target="_blank</a>“} to analyse
+your README file and make your writing bold and clear.</p>
 </div>
 </div>
 </div>
@@ -1152,7 +1151,7 @@ why?</strong></p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>
@@ -1264,7 +1263,7 @@ documentation:</p>
 <button class="accordion-button instructor-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseInstructor2" aria-expanded="false" aria-controls="collapseInstructor2">
   <h3 class="accordion-header" id="headingInstructor2">  <div class="note-square"><i aria-hidden="true" class="callout-icon" data-feather="edit-2"></i></div> Instructor Note </h3>
 </button>
-<div id="collapseInstructor2" class="accordion-collapse collapse" data-bs-parent="#accordionInstructor2" aria-labelledby="headingInstructor2">
+<div id="collapseInstructor2" class="accordion-collapse collapse" aria-labelledby="headingInstructor2" data-bs-parent="#accordionInstructor2">
 <div class="accordion-body">
 <p>You can show the example documentation deployed on GitHub pages here:
 <a href="https://esciencecenter-digital-skills.github.io/good-practices-documentation-example/" class="external-link uri">https://esciencecenter-digital-skills.github.io/good-practices-documentation-example/</a></p>
@@ -1299,7 +1298,7 @@ any links that you are not going to use.
 </div>
 </section></section><section id="aio-good-code"><p>Content from <a href="good-code.html">Coding conventions and modular coding</a></p>
 <hr>
-<p>Last updated on 2024-12-02 |
+<p>Last updated on 2024-12-03 |
 
         <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/good-code.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 35 minutes</p>
@@ -1370,37 +1369,32 @@ and also easier to write - because you need to make fewer decisions.</p>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
 <div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
-<p>Head over to <a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#python-coding-style-guide" class="external-link">this
-lesson about the Python style guide</a>.</p>
+<p>Head over to <a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#python-coding-style-guide" target="_blank" class="external-link">this lesson about the Python style guide</a>.</p>
 <p>Then take a look at (a part of) your own Python script, and identify
 where the guidelines have not been followed. Check the following:</p>
 <ul>
-<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#indentation" class="external-link">Indentation</a></li>
-<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#whitespace-in-expressions-and-statements" class="external-link">Whitespace
-in Expressions and Statements</a></li>
-<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#naming-conventions" class="external-link">Naming
-conventions</a></li>
-<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#comments" class="external-link">Comments</a></li>
+<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#indentation" target="_blank" class="external-link">Indentation</a></li>
+<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#whitespace-in-expressions-and-statements" target="_blank" class="external-link">Whitespace in Expressions and Statements</a></li>
+<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#naming-conventions" target="_blank" class="external-link">Naming conventions</a></li>
+<li><a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#comments" target="_blank" class="external-link">Comments</a></li>
 </ul>
 <p>Fix the discovered inconsistencies and commit them to your working
 branch on GitHub.</p>
 </div>
 <div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
-<p>Head over to <a href="https://style.tidyverse.org/" class="external-link">the Tidyverse
-style guide</a>.</p>
+<p>Head over to <a href="https://style.tidyverse.org/" target="_blank" class="external-link">the Tidyverse style guide</a>.</p>
 <p>Then take a look at (a part of) your own R script, and identify where
 the guidelines have not been followed. Check the following:</p>
 <ul>
-<li><a href="https://style.tidyverse.org/functions.html#multi-line-function-definitions" class="external-link">Indentation</a></li>
-<li><a href="https://style.tidyverse.org/syntax.html#spacing" class="external-link">Spacing</a></li>
+<li><a href="https://style.tidyverse.org/functions.html#multi-line-function-definitions" target="_blank" class="external-link">Indentation</a></li>
+<li><a href="https://style.tidyverse.org/syntax.html#spacing" target="_blank" class="external-link">Spacing</a></li>
 <li>
-<a href="https://style.tidyverse.org/files.html" class="external-link">File</a> and <a href="https://style.tidyverse.org/syntax.html" class="external-link">object</a> naming
-conventions</li>
-<li><a href="https://style.tidyverse.org/functions.html#comments" class="external-link">Comments</a></li>
+<a href="https://style.tidyverse.org/files.html" target="_blank" class="external-link">File</a> and <a href="https://style.tidyverse.org/syntax.html" target="_blank" class="external-link">object</a> naming conventions</li>
+<li><a href="https://style.tidyverse.org/functions.html#comments" target="_blank" class="external-link">Comments</a></li>
 </ul>
 <p>Fix the discovered inconsistencies and commit them to your working
-branch on GitHub. You can use the <a href="https://styler.r-lib.org/" class="external-link">styler</a> (with RStudio add-in) and <a href="https://github.com/r-lib/lintr" class="external-link">lintr</a> packages to (re-)style
-your code.</p>
+branch on GitHub. You can use the <a href="https://styler.r-lib.org/" target="_blank" class="external-link">styler</a> (with RStudio add-in) and <a href="https://github.com/r-lib/lintr" target="_blank" class="external-link">lintr</a> packages
+to (re-)style your code.</p>
 </div>
 </div>
 </div>
@@ -1417,8 +1411,7 @@ your code.</p>
 self-contained, and independent elements. Each element is designed to
 handle a specific set of tasks, contributing to the overall
 functionality of the system.</p>
-<p>Modular coding is explained in more detail in <a href="https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/modular-code-slides" class="external-link">these
-slides</a>.</p>
+<p>Modular coding is explained in more detail in <a href="https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/modular-code-slides" target="_blank" class="external-link">these slides</a>.</p>
 </div>
 <div class="section level3">
 <h3 id="writing-functions">Writing functions<a class="anchor" aria-label="anchor" href="#writing-functions"></a>
@@ -1497,8 +1490,8 @@ case, we are taking our ingredient and applying a set of mathematical
 operators to it.</p>
 <p>When we call the function, the values we pass to it as arguments are
 assigned to those variables so that we can use them inside the function.
-Inside the function, we use a <a href="https://swcarpentry.github.io/r-novice-gapminder/reference.html#return-statement" class="external-link">return
-statement</a> to send a result back to whoever asked for it.</p>
+Inside the function, we use a <a href="https://swcarpentry.github.io/r-novice-gapminder/reference.html#return-statement" target="_blank" class="external-link">return statement</a> to send a result back to whoever
+asked for it.</p>
 <p>Let’s try running our function. Calling our own function is no
 different from calling any other function:</p>
 <div class="codewrapper sourceCode" id="cb3">
@@ -1599,10 +1592,9 @@ different from calling any other function:</p>
 <p>In your own project: identify code that would fit better in a
 function. Try to look for pieces of code that you repeat throughout your
 project.</p>
-<p><a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue" class="external-link">Create
-an issue in your project</a> for each possible function that you find.
-(Actually implementing the function is beyond the scope of this
-workshop).</p>
+<p><a href="https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue" target="_blank" class="external-link">Create an issue in your project</a> for each possible
+function that you find. (Actually implementing the function is beyond
+the scope of this workshop).</p>
 <p>GitHub issues are a good way to track your progress and to-do list.
 As well as a way for others to signal issues with your code.</p>
 </div>
@@ -1691,7 +1683,7 @@ functionality.</p>
   Solution 1 - Basic
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb14">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1840,7 +1832,7 @@ functionality.</p>
   Solution 2 - Advanced
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb15">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1998,7 +1990,7 @@ temperature in Kelvin and returns that temperature in Celsius.</p>
   Solution to challenge 1
   </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>Write a function called <code>kelvin_to_celsius</code> that takes a
 temperature in Kelvin and returns that temperature in Celsius</p>
@@ -2056,7 +2048,7 @@ prefer).</p>
   Solution to challenge 2
   </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
 <div class="accordion-body">
 <p>Define the function to convert directly from Fahrenheit to Celsius,
 by reusing these two functions above</p>
@@ -2077,16 +2069,13 @@ by reusing these two functions above</p>
 <p>The Modular coding section is based on the following sources:</p>
 <ul>
 <li>
-<a href="https://esciencecenter-digital-skills.github.io/good-practices-lesson/1-modular-code.html" class="external-link">Modular
-Code Development</a> from Good practices in research software
-development</li>
+<a href="https://esciencecenter-digital-skills.github.io/good-practices-lesson/1-modular-code.html" target="_blank" class="external-link">Modular Code Development</a> from Good practices in
+research software development</li>
 <li>
-<a href="https://swcarpentry.github.io/r-novice-gapminder/10-functions.html" class="external-link">Functions
-explained</a> from R for Reproducible Scientific Analysis Software
-Carpentry lesson</li>
+<a href="https://swcarpentry.github.io/r-novice-gapminder/10-functions.html" target="_blank" class="external-link">Functions explained</a> from R for Reproducible
+Scientific Analysis Software Carpentry lesson</li>
 <li>
-<a href="https://r4ds.hadley.nz/functions" class="external-link">Functions</a> chapter
-from R for Data Science (2e)</li>
+<a href="https://r4ds.hadley.nz/functions" target="_blank" class="external-link">Functions</a> chapter from R for Data Science (2e)</li>
 </ul>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
@@ -2167,8 +2156,8 @@ project.</p>
 <h3 class="callout-title">Add a license to your project</h3>
 <div class="callout-content">
 <p>Pick a license and add it to the repository. Use <a href="https://choosealicense.com/" class="external-link uri">https://choosealicense.com/</a> to find a license for your
-project. Or if you do not know, you can use <a href="https://choosealicense.com/licenses/apache-2.0/" class="external-link">Apache License
-2.0</a>, a common permissive open-source license.</p>
+project. Or if you do not know, you can use <a href="https://choosealicense.com/licenses/apache-2.0/" target="_blank" class="external-link">Apache License 2.0</a>, a common permissive open-source
+license.</p>
 </div>
 </div>
 </div>
@@ -2180,10 +2169,10 @@ project. Or if you do not know, you can use <a href="https://choosealicense.com/
 <h3 class="callout-title">Add <code>howfairis</code> badge to your
 README file</h3>
 <div class="callout-content">
-<p>Add the <code>howfairis</code> badge to your README file. Follow <a href="https://github.com/fair-software/howfairis" class="external-link">the instructions on
-the howfairis GitHub repo</a></p>
+<p>Add the <code>howfairis</code> badge to your README file. Follow <a href="https://github.com/fair-software/howfairis" target="_blank" class="external-link">the
+instructions on the howfairis GitHub repo</a></p>
 <p>How FAIR is your project and what do you need to do to improve it?
-Read more about FAIR software at <a href="https://fair-software.nl/" class="external-link">https://fair-software.nl/</a></p>
+Read more about FAIR software at <a href="https://fair-software.nl/" target="_blank" class="external-link">https://fair-software.nl/</a></p>
 </div>
 </div>
 </div>
@@ -2194,8 +2183,8 @@ Read more about FAIR software at <a href="https://fair-software.nl/" class="exte
 <div id="add-information-about-how-to-cite-your-project." class="callout-inner">
 <h3 class="callout-title">Add information about how to cite your project.</h3>
 <div class="callout-content">
-<p>Use <a href="https://citation-file-format.github.io/cff-initializer-javascript/#/" class="external-link">cff-initializer</a>
-to create a CITATION.cff file for your project.</p>
+<p>Use <a href="https://citation-file-format.github.io/cff-initializer-javascript/#/" target="_blank" class="external-link">cff-initializer</a> to create a CITATION.cff file for
+your project.</p>
 </div>
 </div>
 </div>
@@ -2207,12 +2196,11 @@ to create a CITATION.cff file for your project.</p>
 <h3 class="callout-title">Link your project to Zenodo.</h3>
 <div class="callout-content">
 <ol style="list-style-type: decimal">
-<li>Create an account at <a href="https://zenodo.org/" class="external-link">Zenodo</a>
+<li>Create an account at <a href="https://zenodo.org/" target="_blank" class="external-link">Zenodo</a>
 </li>
 <li>
-<a href="https://zenodo.org/account/settings/github/" class="external-link">Link your
-GitHub repository to Zenodo</a>. Follow the instructions on the
-page.</li>
+<a href="https://zenodo.org/account/settings/github/" target="_blank" class="external-link">Link your GitHub repository to Zenodo</a>. Follow the
+instructions on the page.</li>
 </ol>
 <p>By publishing your repository on Zenodo, it will receive a persistent
 identifier. This will help to avoid link rot, and make your project more
@@ -2232,15 +2220,14 @@ should be de-identified in the case of human participants).</p>
 <p>Publish the data in a data repository and include the link to your
 data set in your GitHub repository. Data repositories offer organized
 and structured storage and access of data, ensuring that data sets abide
-by the <a href="https://www.go-fair.org/fair-principles/" class="external-link">FAIR
-principles</a> , allowing data are findable, accessible, interoperable,
-and reusable (FAIR) as much as possible.</p>
+by the <a href="https://www.go-fair.org/fair-principles/" target="_blank" class="external-link">FAIR principles</a> , allowing data are findable,
+accessible, interoperable, and reusable (FAIR) as much as possible.</p>
 <p>Alternatively, you can include a data file in your GitHub repository.
 In case you are unable to share the data, include dummy data in the
 project.</p>
-<p>Make sure all data files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" class="external-link">sustainable file format</a>
-such as .csv, and that the files and variables are <a href="https://doi.org/10.5281/zenodo.7551576" class="external-link">properly named</a> and
-clearly described.</p>
+<p>Make sure all data files are saved in a <a href="https://dans.knaw.nl/en/file-formats/" target="_blank" class="external-link">sustainable
+file format</a> such as .csv, and that the files and variables are <a href="https://doi.org/10.5281/zenodo.7551576" target="_blank" class="external-link">properly
+named</a> and clearly described.</p>
 </div>
 </div>
 </div>
