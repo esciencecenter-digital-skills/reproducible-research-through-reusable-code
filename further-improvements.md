@@ -56,6 +56,8 @@ file for your project.
 1. Create an account at [Zenodo](https://zenodo.org/)
 2. [Link your GitHub repository to Zenodo](https://zenodo.org/account/settings/github/). Follow the instructions on the page.
 
+By publishing your repository on Zenodo, it will receive a persistent identifier. This will help to avoid link rot, and make your project more FAIR.
+
 :::
 
 ::: challenge
