@@ -50,7 +50,7 @@ Think about the user (which can be a future you) of your project,
 what does this user need to know to use or contribute to the project? 
 And how do you make your project attractive to use or contribute to?
 
-(Optional): Try the https://hemingwayapp.com/{target="_blank"} to analyse your README file 
+(Optional): Try the <https://hemingwayapp.com/>{target="_blank"} to analyse your README file 
 and make your writing bold and clear.
 :::
 

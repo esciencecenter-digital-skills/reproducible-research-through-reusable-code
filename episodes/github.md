@@ -24,8 +24,8 @@ You are going to add your existing project to GitHub
 ::::::::::::::::::::::::::::::::::::: challenge 
 
 ## Exercise: Create a GitHub repository
-Log in to [GitHub](https://github.com), then click on the icon in the top right corner to
-create a new repository.
+Log in to [GitHub](https://github.com){target="_blank"}, then click on 
+the icon in the top right corner to create a new repository.
 
 ![](fig/github-create-repo-01.png){alt='Creating a Repository on GitHub (Step 1)'}
 
@@ -50,12 +50,14 @@ information on how to configure your local repository:
 ## Pushing existing code to GitHub
 Below are steps for pushing your existing code to GitHub using the command line.
 We recommend using the command line. 
-You need to get used to it, but once you are used to it will make your life as a coder easier.
+You need to get used to it, but once you are used to it will make your 
+life as a coder easier.
 
-First install Shell and Git. Please refer to [these installation instructions](https://coderefinery.github.io/installation/git-in-terminal/#installation).
+First install Shell and Git. Please refer to 
+[these installation instructions](https://coderefinery.github.io/installation/git-in-terminal/#installation){target="_blank"}.
 
-If you prefer uploading your project to GitHub using a git GUI like [GitHub Desktop](https://desktop.github.com/) 
-or [Sourcetree](https://www.sourcetreeapp.com/),
+If you prefer uploading your project to GitHub using a git GUI like [GitHub Desktop](https://desktop.github.com/){target="_blank"} 
+or [Sourcetree](https://www.sourcetreeapp.com/){target="_blank"},
 or an IDE with support for git like VSCode, 
 you can also use that, but we do not provide instructions for it. 
 
@@ -72,7 +74,8 @@ git init
 ```
 
 Then do this to add all your files to be "monitored." 
-If you have files that you want ignored, you need to add a `.gitignore` file but for the sake of simplicity, just use this example to learn.
+If you have files that you want ignored, you need to add a `.gitignore` 
+file but for the sake of simplicity, just use this example to learn.
 
 ```bash
 git add .
@@ -85,14 +88,15 @@ git commit -m "Initial Commit"
 ```
 
 Now, we want to link to your project on GitHub.
-The home page of the repository on GitHub includes the URL string we need to
-identify it:
+The home page of the repository on GitHub includes the URL string we need 
+to identify it:
 
 ![](fig/github-find-repo-string.png){alt='Where to Find Repository URL on GitHub'}
 
 Make sure to copy the HTTPS link and not the SSH link.
 
-Then use below command to connect the local repository to the repository in GitHub
+Then use below command to connect the local repository to the repository 
+in GitHub
 
 ```
 git remote add origin <project url>
@@ -113,7 +117,8 @@ Then you can push your changes to GitHub
 git push origin main
 ```
 
-Refresh the home page of your repository on GitHub to verify that your code is there.
+Refresh the home page of your repository on GitHub to verify that your 
+code is there.
 :::
 
 ::: callout
@@ -122,7 +127,7 @@ These are the basics for uploading a project to GitHub.
 We realize we are skipping a lot of details on how git works and how to use it. 
 Our excuse is we want reproducible code on GitHub within a day.
 
-If you want to learn more about git later, you can follow a [this great lesson](https://swcarpentry.github.io/git-novice/).
+If you want to learn more about git later, you can follow a [this great lesson](https://swcarpentry.github.io/git-novice/){target="_blank"}.
 
 :::
 
@@ -130,9 +135,9 @@ If you want to learn more about git later, you can follow a [this great lesson](
 ## Optional exercise: My code is already on GitHub
 If your code is already on GitHub you can try to help others pushing their code to GitHub, or explore the following topics:
 
-- [Familiarize yourself with the basics of `git`](https://swcarpentry.github.io/git-novice/)
-- [Learn more about `.gitignore` files](https://swcarpentry.github.io/git-novice/06-ignore.html)
-- If you already know the basics of `git`, familiarize yourself with best practices in using git with [this lesson](https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html). 
+- [Familiarize yourself with the basics of `git`](https://swcarpentry.github.io/git-novice/){target="_blank"}
+- [Learn more about `.gitignore` files](https://swcarpentry.github.io/git-novice/06-ignore.html){target="_blank"}
+- If you already know the basics of `git`, familiarize yourself with best practices in using git with [this lesson](https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html){target="_blank"}. 
 This lesson assumes you have some project with changes to it, you can make some changes in the project you are working on today to mimic the lesson.
 
 
