@@ -131,7 +131,7 @@ If you want to learn more about git later, you can follow a [this great lesson](
 If your code is already on GitHub you can try to help others pushing their code to GitHub, or explore the following topics:
 
 - [Familiarize yourself with the basics of `git`](https://swcarpentry.github.io/git-novice/)
-- [Learn more about `.gitignore` files](https://swcarpentry.github.io/git-novice/)
+- [Learn more about `.gitignore` files](https://swcarpentry.github.io/git-novice/06-ignore.html)
 - If you already know the basics of `git`, familiarize yourself with best practices in using git with [this lesson](https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html). 
 This lesson assumes you have some project with changes to it, you can make some changes in the project you are working on today to mimic the lesson.
 
