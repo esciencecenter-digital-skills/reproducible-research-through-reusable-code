@@ -28,24 +28,24 @@ Try to prioritize what you think will be most beneficial to your project.
 ## Add a license to your project
 Pick a license and add it to the repository.
 Use https://choosealicense.com/ to find a license for your project. 
-Or if you do not know, you can use [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/), a common permissive open-source license.
+Or if you do not know, you can use [Apache License 2.0](https://choosealicense.com/licenses/apache-2.0/){target="_blank"}, a common permissive open-source license.
 
 :::
 
 ::: challenge
 ## Add `howfairis` badge to your README file
 Add the `howfairis` badge to your README file.
-Follow [the instructions on the howfairis GitHub repo](https://github.com/fair-software/howfairis)
+Follow [the instructions on the howfairis GitHub repo](https://github.com/fair-software/howfairis){target="_blank"}
 
 How FAIR is your project and what do you need to do to improve it?
-Read more about FAIR software at [https://fair-software.nl/](https://fair-software.nl/)
+Read more about FAIR software at [https://fair-software.nl/](https://fair-software.nl/){target="_blank"}
 
 :::
 
 ::: challenge
 ## Add information about how to cite your project.
 
-Use [cff-initializer](https://citation-file-format.github.io/cff-initializer-javascript/#/) to create a CITATION.cff 
+Use [cff-initializer](https://citation-file-format.github.io/cff-initializer-javascript/#/){target="_blank"} to create a CITATION.cff 
 file for your project.
 
 :::
@@ -53,8 +53,8 @@ file for your project.
 ::: challenge
 ## Link your project to Zenodo.
 
-1. Create an account at [Zenodo](https://zenodo.org/)
-2. [Link your GitHub repository to Zenodo](https://zenodo.org/account/settings/github/). Follow the instructions on the page.
+1. Create an account at [Zenodo](https://zenodo.org/){target="_blank"}
+2. [Link your GitHub repository to Zenodo](https://zenodo.org/account/settings/github/){target="_blank"}. Follow the instructions on the page.
 
 By publishing your repository on Zenodo, it will receive a persistent identifier. This will help to avoid link rot, and make your project more FAIR.
 
@@ -68,7 +68,7 @@ in the case of human participants).
 
 Publish the data in a data repository and include the link to your data set in your GitHub 
 repository. Data repositories offer organized and structured storage and access of data, 
-ensuring that data sets abide by the [FAIR principles](https://www.go-fair.org/fair-principles/)
+ensuring that data sets abide by the [FAIR principles](https://www.go-fair.org/fair-principles/){target="_blank"}
 , allowing data are findable, accessible, interoperable, and reusable (FAIR) as much as 
 possible. 
 
@@ -76,8 +76,8 @@ Alternatively, you can include a data file in your GitHub repository. In case yo
 to share the data, include dummy data in the project.
 
 Make sure all data files are saved in a 
-[sustainable file format](https://dans.knaw.nl/en/file-formats/) such as .csv, 
-and that the files and variables are [properly named](https://doi.org/10.5281/zenodo.7551576)
+[sustainable file format](https://dans.knaw.nl/en/file-formats/){target="_blank"} such as .csv, 
+and that the files and variables are [properly named](https://doi.org/10.5281/zenodo.7551576){target="_blank"}
 and clearly described.
 
 

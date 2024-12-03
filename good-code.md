@@ -36,32 +36,32 @@ code easier to read and also easier to write - because you need to make fewer de
 
 ::: tab
 ### Python style guide
-Head over to [this lesson about the Python style guide](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#python-coding-style-guide).  
+Head over to [this lesson about the Python style guide](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#python-coding-style-guide){target="_blank"}.  
 
 Then take a look at (a part of) your own Python script, and identify where the guidelines 
 have not been followed. Check the following:
 
-- [Indentation](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#indentation)
-- [Whitespace in Expressions and Statements](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#whitespace-in-expressions-and-statements)
-- [Naming conventions](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#naming-conventions)
-- [Comments](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#comments)
+- [Indentation](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#indentation){target="_blank"}
+- [Whitespace in Expressions and Statements](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#whitespace-in-expressions-and-statements){target="_blank"}
+- [Naming conventions](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#naming-conventions){target="_blank"}
+- [Comments](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#comments){target="_blank"}
 
 Fix the discovered inconsistencies and commit them to your working branch on GitHub.
 
 ### R (Tidyverse) style guide
-Head over to [the Tidyverse style guide](https://style.tidyverse.org/).  
+Head over to [the Tidyverse style guide](https://style.tidyverse.org/){target="_blank"}.  
 
 Then take a look at (a part of) your own R script, and identify where the guidelines 
 have not been followed. Check the following:
 
-- [Indentation](https://style.tidyverse.org/functions.html#multi-line-function-definitions)
-- [Spacing](https://style.tidyverse.org/syntax.html#spacing)
-- [File](https://style.tidyverse.org/files.html) and [object](https://style.tidyverse.org/syntax.html) 
+- [Indentation](https://style.tidyverse.org/functions.html#multi-line-function-definitions){target="_blank"}
+- [Spacing](https://style.tidyverse.org/syntax.html#spacing){target="_blank"}
+- [File](https://style.tidyverse.org/files.html){target="_blank"} and [object](https://style.tidyverse.org/syntax.html){target="_blank"} 
 naming conventions
-- [Comments](https://style.tidyverse.org/functions.html#comments)
+- [Comments](https://style.tidyverse.org/functions.html#comments){target="_blank"}
 
 Fix the discovered inconsistencies and commit them to your working branch on GitHub.
-You can use the [styler](https://styler.r-lib.org/) (with RStudio add-in) and [lintr](https://github.com/r-lib/lintr)
+You can use the [styler](https://styler.r-lib.org/){target="_blank"} (with RStudio add-in) and [lintr](https://github.com/r-lib/lintr){target="_blank"}
 packages to (re-)style your code.
 
 :::
@@ -75,7 +75,7 @@ Modularity refers to the practice of building software from smaller, self-contai
 and independent elements. Each element is designed to handle a specific set of tasks, 
 contributing to the overall functionality of the system.
 
-Modular coding is explained in more detail in [these slides](https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/modular-code-slides).
+Modular coding is explained in more detail in [these slides](https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/modular-code-slides){target="_blank"}.
 
 ### Writing functions
 One of the best ways to improve your code and to make it more modular is to write functions. 
@@ -138,7 +138,7 @@ operators to it.
 When we call the function, the values we pass to it as arguments are assigned to
 those variables so that we can use them inside the function. Inside the
 function, we use a [return
-statement](https://swcarpentry.github.io/r-novice-gapminder/reference.html#return-statement) 
+statement](https://swcarpentry.github.io/r-novice-gapminder/reference.html#return-statement){target="_blank"}
 to send a result back to whoever asked for it.
 
 Let's try running our function.
@@ -227,7 +227,7 @@ fahr_to_kelvin(212)
 In your own project: identify code that would fit better in a function.
 Try to look for pieces of code that you repeat throughout your project.
 
-[Create an issue in your project](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue)
+[Create an issue in your project](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue){target="_blank"}
 for each possible function that you find. (Actually implementing the function is beyond the scope of this workshop).
 
 GitHub issues are a good way to track your progress and to-do list. 
@@ -655,11 +655,11 @@ fahr_to_celsius <- function(temp) {
 
 The Modular coding section is based on the following sources:
 
-- [Modular Code Development](https://esciencecenter-digital-skills.github.io/good-practices-lesson/1-modular-code.html) 
+- [Modular Code Development](https://esciencecenter-digital-skills.github.io/good-practices-lesson/1-modular-code.html){target="_blank"} 
 from Good practices in research software development
-- [Functions explained](https://swcarpentry.github.io/r-novice-gapminder/10-functions.html) 
+- [Functions explained](https://swcarpentry.github.io/r-novice-gapminder/10-functions.html){target="_blank"} 
 from R for Reproducible Scientific Analysis Software Carpentry lesson
-- [Functions](https://r4ds.hadley.nz/functions) chapter from R for Data Science (2e)
+- [Functions](https://r4ds.hadley.nz/functions){target="_blank"} chapter from R for Data Science (2e)
 
 :::::::::::::::::::::::::::::::::::::::: keypoints
 
