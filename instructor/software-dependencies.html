@@ -530,7 +530,7 @@ anotherproject (== 2.3.4)</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><strong>A</strong>: It will be tedious to collect the dependencies
 one by one. And after the tedious process you will still not know which
@@ -591,9 +591,10 @@ Skills (Python)</a> lesson.</p>
 </div>
 <div id="nav-tabpanel-2-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-R">
 <p>This example uses renv.</p>
-<p>Try to “save” and “load” the state of your project library using
-<code>renv::snapshot()</code> and <code>renv::restore()</code>. See
-also: <a href="https://rstudio.github.io/renv/articles/renv.html#reproducibility" target="_blank" class="external-link">https://rstudio.github.io/renv/articles/renv.html#reproducibility</a></p>
+<p>First initialize renv (install the package if needed) using
+<code>renv::init()</code>. Then try to “save” and “load” the state of
+your project library using <code>renv::snapshot()</code> and
+<code>renv::restore()</code>. See also: <a href="https://rstudio.github.io/renv/articles/renv.html#reproducibility" target="_blank" class="external-link">https://rstudio.github.io/renv/articles/renv.html#reproducibility</a></p>
 <p>If you want to learn more about using <code>renv</code> in R, head
 over to the <a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html" target="_blank" class="external-link">Introduction to Reproducible Publications with
 RStudio</a> lesson.</p>
