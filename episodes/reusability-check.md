@@ -27,7 +27,7 @@ Share the link to your GitHub project with one of your peers.
 ### 2. Review the reproducibility of someone else's project
 
 Review the reprodubility of the project of one of your peers. 
-Open a new GitHub issue in the project you are reviewing in which you answer these questions: 
+[Open a new GitHub issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) in the project you are reviewing in which you answer these questions: 
 - Is the code clearly documented and can you reproduce and reuse the code?  
 - Are you able to rerun the analysis independently? 
 
