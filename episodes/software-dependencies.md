@@ -223,7 +223,8 @@ lesson.
 ### R
 This example uses renv.
 
-Try to "save" and "load" the state of your project library using
+First initialize renv (install the package if needed) using `renv::init()`. 
+Then try to "save" and "load" the state of your project library using
 `renv::snapshot()` and `renv::restore()`.
 See also: <https://rstudio.github.io/renv/articles/renv.html#reproducibility>{target="_blank"}
 
