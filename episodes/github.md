@@ -95,7 +95,7 @@ Make sure to copy the HTTPS link and not the SSH link.
 Then use below command to connect the local repository to the repository in GitHub
 
 ```
-git remote add github <project url>
+git remote add origin <project url>
 ```
 
 
