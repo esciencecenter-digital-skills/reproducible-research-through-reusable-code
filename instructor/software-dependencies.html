@@ -326,7 +326,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Software dependencies</h1>
-        <p>Last updated on 2024-12-02 |
+        <p>Last updated on 2024-12-03 |
 
         <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/software-dependencies.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -373,9 +373,9 @@ capture and communicate dependencies?</li>
 <li>
 <strong>Dependency hell</strong>: Different codes on the same
 environment can have conflicting dependencies.</li>
-</ul><figure><img src="../fig/dependency.png" style="width:60.0%" alt="An image showing blocks (=codes) depending on each other for stability" class="figure mx-auto d-block"><div class="figcaption">From <a href="https://xkcd.com/2347/" class="external-link">xkcd -
-dependency</a>. Another image that might be familiar to some of you
-working with Python can be found on <a href="https://xkcd.com/1987/" class="external-link">xkcd - superfund</a>.</div>
+</ul><figure><img src="../fig/dependency.png" style="width:60.0%" alt="An image showing blocks (=codes) depending on each other for stability" class="figure mx-auto d-block"><div class="figcaption">From <a href="https://xkcd.com/2347/" target="_blank" class="external-link">xkcd - dependency</a>. Another image that might be
+familiar to some of you working with Python can be found on <a href="https://xkcd.com/1987/" target="_blank" class="external-link">xkcd -
+superfund</a>.</div>
 </figure><div id="kitchen-analogy" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -448,7 +448,7 @@ try to re-run their code before adapting it.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-1-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-Pythonvirtualenv">
 <p><strong>A</strong>: You find a couple of library imports across the
 code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -481,13 +481,13 @@ python==3.8
 someproject==1.2.3
 anotherproject==2.3.4</code></pre>
 </div>
-<div id="nav-tabpanel-1-R" class="tab-pane" aria-labelledby="nav-tab-1-R" role="tabpanel">
+<div id="nav-tabpanel-1-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-R">
 <p><strong>A</strong>: You find a couple of <code>library()</code> or
 <code>require()</code> calls across the code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
 but does not mention any versions.</p>
-<p><strong>C</strong>: You find a <a href="https://r-pkgs.org/description.html" class="external-link">DESCRIPTION file</a> which
-contains:</p>
+<p><strong>C</strong>: You find a <a href="https://r-pkgs.org/description.html" target="_blank" class="external-link">DESCRIPTION
+file</a> which contains:</p>
 <pre><code>Imports:
 dplyr,
 tidyr</code></pre>
@@ -499,8 +499,8 @@ tidyr</code></pre>
 <code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"someuser/someproject@master"</span><span class="op">)</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"anotheruser/anotherproject@master"</span><span class="op">)</span></span></code></pre>
 </div>
-<p><strong>D</strong>: You find a <a href="https://r-pkgs.org/description.html" class="external-link">DESCRIPTION file</a> which
-contains:</p>
+<p><strong>D</strong>: You find a <a href="https://r-pkgs.org/description.html" target="_blank" class="external-link">DESCRIPTION
+file</a> which contains:</p>
 <pre><code>Imports:
 dplyr (== 1.0.0),
 tidyr (== 1.1.0)</code></pre>
@@ -512,8 +512,8 @@ tidyr (== 1.1.0)</code></pre>
 <code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"someuser/someproject@d7b2c7e"</span><span class="op">)</span></span>
 <span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"anotheruser/anotherproject@sometag"</span><span class="op">)</span></span></code></pre>
 </div>
-<p><strong>E</strong>: You find a <a href="https://r-pkgs.org/description.html" class="external-link">DESCRIPTION file</a> which
-contains:</p>
+<p><strong>E</strong>: You find a <a href="https://r-pkgs.org/description.html" target="_blank" class="external-link">DESCRIPTION
+file</a> which contains:</p>
 <pre><code>Imports:
 dplyr (== 1.0.0),
 tidyr (== 1.1.0),
@@ -579,25 +579,24 @@ communicate this information?</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-2" class="tab-content">
-<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-2-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-2-Pythonvirtualenv">
 <p>Try this in your own project:</p>
 <pre class="console"><code>$ pip freeze &gt; requirements.txt</code></pre>
 <p>Have a look at the generated file and discuss what you see.</p>
 <p>In future you can re-create this environment with:</p>
 <pre class="console"><code>$ pip install -r requirements.txt</code></pre>
 <p>If you want to learn more about virtual environments in Python, head
-over to the <a href="https://carpentries-incubator.github.io/python-intermediate-development/12-virtual-environments/index.html#creating-virtual-environments-using-venv" class="external-link">Carpentries
-Intermediate Research Software Development Skills (Python)</a>
-lesson.</p>
+over to the <a href="https://carpentries-incubator.github.io/python-intermediate-development/12-virtual-environments/index.html#creating-virtual-environments-using-venv" target="_blank" class="external-link">Carpentries Intermediate Research Software Development
+Skills (Python)</a> lesson.</p>
 </div>
-<div id="nav-tabpanel-2-R" class="tab-pane" aria-labelledby="nav-tab-2-R" role="tabpanel">
+<div id="nav-tabpanel-2-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-R">
 <p>This example uses renv.</p>
 <p>Try to “save” and “load” the state of your project library using
 <code>renv::snapshot()</code> and <code>renv::restore()</code>. See
-also: <a href="https://rstudio.github.io/renv/articles/renv.html#reproducibility" class="external-link uri">https://rstudio.github.io/renv/articles/renv.html#reproducibility</a></p>
+also: <a href="https://rstudio.github.io/renv/articles/renv.html#reproducibility" target="_blank" class="external-link">https://rstudio.github.io/renv/articles/renv.html#reproducibility</a></p>
 <p>If you want to learn more about using <code>renv</code> in R, head
-over to the <a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html" class="external-link">Introduction
-to Reproducible Publications with RStudio</a> lesson.</p>
+over to the <a href="https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html" target="_blank" class="external-link">Introduction to Reproducible Publications with
+RStudio</a> lesson.</p>
 </div>
 </div>
 </div>
@@ -627,7 +626,7 @@ dependencies to GitHub:</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-3" class="tab-content">
-<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-3-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-3-Pythonvirtualenv">
 <ol style="list-style-type: decimal"><li>Mark your changes as staged:</li>
 </ol><div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -647,7 +646,7 @@ dependencies to GitHub:</p>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
 </div>
 </div>
-<div id="nav-tabpanel-3-R" class="tab-pane" aria-labelledby="nav-tab-3-R" role="tabpanel">
+<div id="nav-tabpanel-3-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-3-R">
 <ol style="list-style-type: decimal"><li>Mark your changes as staged (share not only the lock file, but also
 the .RProfile and activate.R files needed to recreate the
 environment):</li>
@@ -676,8 +675,8 @@ environment):</li>
 </div>
 </div>
 </div>
-<p>This episode is based on the <a href="https://coderefinery.github.io/reproducible-research/dependencies/#" class="external-link">Code
-Refinery</a> Reproducible Research lesson about dependencies.</p>
+<p>This episode is based on the <a href="https://coderefinery.github.io/reproducible-research/dependencies/#" target="_blank" class="external-link">Code Refinery</a> Reproducible Research lesson about
+dependencies.</p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -753,7 +752,7 @@ any links that you are not going to use.
   "url": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/software-dependencies.html",
   "identifier": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/instructor/software-dependencies.html",
   "dateCreated": "2024-11-27",
-  "dateModified": "2024-12-02",
+  "dateModified": "2024-12-03",
   "datePublished": "2024-12-03"
 }
 
