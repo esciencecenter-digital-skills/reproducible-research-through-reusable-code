@@ -446,7 +446,7 @@ try to re-run their code before adapting it.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-Pythonvirtualenv">
+<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-1-Pythonvirtualenv" role="tabpanel">
 <p><strong>A</strong>: You find a couple of library imports across the
 code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -479,7 +479,7 @@ python==3.8
 someproject==1.2.3
 anotherproject==2.3.4</code></pre>
 </div>
-<div id="nav-tabpanel-1-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-R">
+<div id="nav-tabpanel-1-R" class="tab-pane" aria-labelledby="nav-tab-1-R" role="tabpanel">
 <p><strong>A</strong>: You find a couple of <code>library()</code> or
 <code>require()</code> calls across the code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -528,7 +528,7 @@ anotherproject (== 2.3.4)</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><strong>A</strong>: It will be tedious to collect the dependencies
 one by one. And after the tedious process you will still not know which
@@ -577,7 +577,7 @@ communicate this information?</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-2" class="tab-content">
-<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-2-Pythonvirtualenv">
+<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-2-Pythonvirtualenv" role="tabpanel">
 <p>Try this in your own project:</p>
 <pre class="console"><code>$ pip freeze &gt; requirements.txt</code></pre>
 <p>Have a look at the generated file and discuss what you see.</p>
@@ -588,7 +588,7 @@ over to the <a href="https://carpentries-incubator.github.io/python-intermediate
 Intermediate Research Software Development Skills (Python)</a>
 lesson.</p>
 </div>
-<div id="nav-tabpanel-2-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-R">
+<div id="nav-tabpanel-2-R" class="tab-pane" aria-labelledby="nav-tab-2-R" role="tabpanel">
 <p>This example uses renv.</p>
 <p>Try to “save” and “load” the state of your project library using
 <code>renv::snapshot()</code> and <code>renv::restore()</code>. See
@@ -625,7 +625,7 @@ dependencies to GitHub:</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-3" class="tab-content">
-<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-3-Pythonvirtualenv">
+<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-3-Pythonvirtualenv" role="tabpanel">
 <ol style="list-style-type: decimal"><li>Mark your changes as staged:</li>
 </ol><div class="codewrapper sourceCode" id="cb11">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -645,7 +645,7 @@ dependencies to GitHub:</p>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
 </div>
 </div>
-<div id="nav-tabpanel-3-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-3-R">
+<div id="nav-tabpanel-3-R" class="tab-pane" aria-labelledby="nav-tab-3-R" role="tabpanel">
 <ol style="list-style-type: decimal"><li>Mark your changes as staged (share not only the lock file, but also
 the .RProfile and activate.R files needed to recreate the
 environment):</li>
