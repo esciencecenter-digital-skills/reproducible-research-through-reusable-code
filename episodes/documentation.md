@@ -17,10 +17,12 @@ exercises: 15
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::: instructor
-Use [these slides](https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/documentation-slides) as
+Use [these slides](https://esciencecenter-digital-skills.github.io/digital-skills-slides/modules/good-practices-lesson/documentation-slides){target="_blank"} as
 a guidance.
 
-The main purpose of this lesson is to make sure participants understand that DOCUMENTATION IS IMPORTANT. The goal is more to trigger participants then to teach them all the different ways one could document a project. It is good to communicate this (and that this will give more time for the other parts of the workshop).
+The main purpose of this lesson is to make sure participants understand that DOCUMENTATION IS IMPORTANT. The goal is more to trigger participants 
+then to teach them all the different ways one could document a project. It is good to communicate
+this (and that this will give more time for the other parts of the workshop).
 
 :::
 
@@ -38,15 +40,18 @@ The README file is the first thing a user/collaborator sees. It should include:
 ::: challenge
 ### Exercise README: Draft or improve a README for your project
 
-Create a new file called README.md in your local project (or improve the README.md file for your project).
+Create a new file called README.md in your local project (or improve the README.md file 
+for your project).
 
-You can work individually, but you could also discuss whether anything can be improved on your neighbour's README file(s).
+You can work individually, but you could also discuss whether anything can be improved on 
+your neighbour's README file(s).
 
 Think about the user (which can be a future you) of your project, 
 what does this user need to know to use or contribute to the project? 
 And how do you make your project attractive to use or contribute to?
 
-(Optional): Try the https://hemingwayapp.com/ to analyse your README file and make your writing bold and clear.
+(Optional): Try the https://hemingwayapp.com/{target="_blank"} to analyse your README file 
+and make your writing bold and clear.
 :::
 
 ::: callout
