@@ -25,7 +25,7 @@ version-control dependencies?
 - **Dependency hell**: Different codes on the same environment can have conflicting 
 dependencies.
 
-![From [xkcd - dependency](https://xkcd.com/2347/). Another image that might be familiar to some of you working with Python can be found on [xkcd - superfund](https://xkcd.com/1987/).](fig/dependency.png){width="60%" alt="An image showing blocks (=codes) depending on each other for stability"} 
+![From [xkcd - dependency](https://xkcd.com/2347/){target="_blank"}. Another image that might be familiar to some of you working with Python can be found on [xkcd - superfund](https://xkcd.com/1987/){target="_blank"}.](fig/dependency.png){width="60%" alt="An image showing blocks (=codes) depending on each other for stability"} 
 
 ::: discussion
 ## Kitchen analogy
@@ -130,7 +130,7 @@ The README file lists which libraries were used but does not mention
 any versions.
 
 **C**:
-You find a [DESCRIPTION file](https://r-pkgs.org/description.html) which contains:
+You find a [DESCRIPTION file](https://r-pkgs.org/description.html){target="_blank"} which contains:
 ```
 Imports:
 dplyr,
@@ -143,7 +143,7 @@ remotes::install_github("anotheruser/anotherproject@master")
 ```
 
 **D**:
-You find a [DESCRIPTION file](https://r-pkgs.org/description.html) which contains:
+You find a [DESCRIPTION file](https://r-pkgs.org/description.html){target="_blank"} which contains:
 ```
 Imports:
 dplyr (== 1.0.0),
@@ -156,7 +156,7 @@ remotes::install_github("anotheruser/anotherproject@sometag")
 ```
 
 **E**:
-You find a [DESCRIPTION file](https://r-pkgs.org/description.html) which contains:
+You find a [DESCRIPTION file](https://r-pkgs.org/description.html){target="_blank"} which contains:
 ```
 Imports:
 dplyr (== 1.0.0),
@@ -217,7 +217,7 @@ $ pip install -r requirements.txt
 ```
 
 If you want to learn more about virtual environments in Python, head over to the
-[Carpentries Intermediate Research Software Development Skills (Python) ](https://carpentries-incubator.github.io/python-intermediate-development/12-virtual-environments/index.html#creating-virtual-environments-using-venv) 
+[Carpentries Intermediate Research Software Development Skills (Python) ](https://carpentries-incubator.github.io/python-intermediate-development/12-virtual-environments/index.html#creating-virtual-environments-using-venv){target="_blank"} 
 lesson.
 
 ### R
@@ -225,10 +225,10 @@ This example uses renv.
 
 Try to "save" and "load" the state of your project library using
 `renv::snapshot()` and `renv::restore()`.
-See also: <https://rstudio.github.io/renv/articles/renv.html#reproducibility>
+See also: <https://rstudio.github.io/renv/articles/renv.html#reproducibility>{target="_blank"}
 
 If you want to learn more about using `renv` in R, head over to the 
-[Introduction to Reproducible Publications with RStudio](https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html) 
+[Introduction to Reproducible Publications with RStudio](https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html){target="_blank"} 
 lesson.
 
 :::
@@ -282,7 +282,7 @@ git push origin main
 :::
 
 
-This episode is based on the [Code Refinery](https://coderefinery.github.io/reproducible-research/dependencies/#) 
+This episode is based on the [Code Refinery](https://coderefinery.github.io/reproducible-research/dependencies/#){target="_blank"} 
 Reproducible Research lesson about dependencies.
 
 
