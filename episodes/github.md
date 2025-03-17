@@ -50,7 +50,7 @@ First install [RStudio](https://posit.co/download/rstudio-desktop/) (recommended
 ::: group-tab
 ### RStudio
 
-Make sure that next to RStudio, Git is installed on your system and activated in RStudio. Please refer to [these installation instructions](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html).
+Make sure that next to RStudio, Git is installed on your system and activated in RStudio. Please refer to [these installation instructions from RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html) and these instructions on [how to configure GitHub for RStudio](https://gist.github.com/Z3tt/3dab3535007acf108391649766409421).
 
 Next, you need to initialize git (version control) for your Project:
 
