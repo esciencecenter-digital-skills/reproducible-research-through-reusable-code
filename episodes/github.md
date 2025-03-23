@@ -1,5 +1,5 @@
 ---
-title: "Uploading a coding project to GitHub"
+title: "Pre-workshop assignment: Uploading a coding project to GitHub"
 teaching: 5
 exercises: 45
 ---
@@ -40,21 +40,26 @@ As soon as the repository is created, GitHub displays a page with a URL and some
 
 ## Pushing existing code to GitHub
 
-Below are steps for pushing your existing code to GitHub using RStudio or Visual Studio Code. There are many tools to push your code to GitHub (including the command line), but if you are not used to doing this we recommend one of these options.
+Below are steps for pushing your existing code to GitHub using RStudio or Visual Studio Code. 
+There are many tools to push your code to GitHub (including the command line), but if you are not used to doing this we recommend one of these options.
 
-First install [RStudio](https://posit.co/download/rstudio-desktop/) (recommended for R users) or [Visual Studio Code](https://code.visualstudio.com/).
+First install [RStudio](https://posit.co/download/rstudio-desktop/){target="_blank"} (recommended for R users) 
+or [Visual Studio Code](https://code.visualstudio.com/){target="_blank"}.
 
-:::: challenge
+::::: challenge
 ## Exercise: Push your existing code to GitHub
 
 ::: group-tab
 ### RStudio
 
-Make sure that next to RStudio, Git is installed on your system and activated in RStudio. Please refer to [these installation instructions from RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html) and these instructions on [how to configure GitHub for RStudio](https://gist.github.com/Z3tt/3dab3535007acf108391649766409421).
+Make sure that next to RStudio, Git is installed on your system and activated in RStudio. 
+Please refer to [these installation instructions from RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html){target="_blank"} 
+and these instructions on [how to configure GitHub for RStudio](https://gist.github.com/Z3tt/3dab3535007acf108391649766409421){target="_blank"}.
 
 Next, you need to initialize git (version control) for your Project:
 
-In Rstudio, open the [RStudio Project](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects) that you want to add to GitHub. Go to 'Tools \> Version control \> Project setup...'
+In Rstudio, open the [RStudio Project](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects){target="_blank"} 
+that you want to add to GitHub. Go to 'Tools \> Version control \> Project setup...'
 
 Select 'Git' as the Version Control System
 
@@ -124,57 +129,37 @@ Refresh the home page of your repository on GitHub to verify that your code is t
 
 ### Visual Studio Code
 
-**--- PLACEHOLDER CONTENT, TO BE REPLACED ---**
+The following instructions are based on the use of Visual Studio Code as a code editor, which offers support for development operations like debugging, task running, and version
+control. You can download [Visual Studio Code here](https://code.visualstudio.com/){target="_blank"} for free (and [disable reporting](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting){target="_blank"} your usage if you like).
 
-On your computer, go to the directory of the project you want to add to GitHub using the terminal (git Bash for Windows). You can use the `cd` command to move into the directory. From here you run the following commands to "connect" your existing project to your repo on GitHub. (This is assuming that you created your repo on GitHub and it is currently empty)
+Make sure that next to Visual Studio Code, [Git](https://git-scm.com/downloads){target="_blank"} is installed on your system.
 
-First do this to initialize git (version control).
+Next, you need to initialize git (version control) for your Project:
 
-``` bash
-git init
-```
+In Visual Studio Code, open the folder of the project that you want to add to GitHub. 
+Then click on 'Source Control' and 'Initialize Repository':
 
-Then do this to add all your files to be "monitored." If you have files that you want ignored, you need to add a `.gitignore` file but for the sake of simplicity, just use this example to learn.
+![](fig/git-vscode.png){alt="Initializing version control in Visual Studio Code"}
 
-``` bash
-git add .
-```
+Now, you can stage files by clicking on the '+' next to 'Changes' or next to the individual files:
 
-Then you commit and add a note in between the "" like "first commit" etc.
+![](fig/git-vscode-stage.png){alt="Staging files in Visual Studio Code"}
 
-``` bash
-git commit -m "Initial Commit"
-```
+An 'A' will denote that the files are now added, and they are in the category 'Staged Changes':
 
-Now, we want to link to your project on GitHub. The home page of the repository on GitHub includes the URL string we need to identify it:
+![](fig/git-vscode-added-staged.png){alt="Staged files in Visual Studio Code"}
 
-![](fig/github-find-repo-string.png){alt="Where to Find Repository URL on GitHub"}
+Then you click on 'Commit'. Then you are asked to add a so-called commit message. When you accept and save
+that message, you can publish the remote on GitHub by clicking the blue 'Publish Branch' button that should now
+be available.  
 
-Make sure to copy the HTTPS link and not the SSH link.
-
-Then use below command to connect the local repository to the repository in GitHub
-
-```         
-git remote add origin <project url>
-```
-
-Test to see that it worked by doing
-
-``` bash
-git remote -v
-```
-
-You should see what your repo is linked to.
-
-Then you can push your changes to GitHub
-
-``` bash
-git push origin main
-```
+When you do so you are asked to sign in to GitHub and authorize Visual Studio Code via the browser. After that, you
+will return to Visual Studio Code and you should click 'Publish to public GitHub Repository'.
 
 Refresh the home page of your repository on GitHub to verify that your code is there.
+
 :::
-::::
+:::::
 
 ::: callout
 ## Wait, what did we just do?
