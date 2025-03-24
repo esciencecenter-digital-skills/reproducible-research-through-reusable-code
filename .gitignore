@@ -51,3 +51,6 @@ po/*~
 
 # Pycharm files
 .idea
+
+# Mac specific files
+.DS_Store
