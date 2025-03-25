@@ -23,7 +23,10 @@ You are going to add your existing project to GitHub. This is important for mult
 
 3.  By publishing your code on GitHub, your code is now available for others for re-use.
 
-The exercises on this page should be done **before the workshop**. This will help us to focus on improving the code during the workshop day. Please let us know if you are stuck or have any questions by emailing s.vanderburg@esciencecenter.nl and e.klapwijk@essb.eur.nl.
+The exercises on this page should be done **before the workshop**. This will help us to focus on improving the code during the workshop day. 
+You will need approximately one hour to finish this pre-workshop assignment.
+
+Please let us know if you are stuck or have any questions by emailing s.vanderburg@esciencecenter.nl and e.klapwijk@essb.eur.nl.
 
 :::: challenge
 ## Exercise: Install Git and create a GitHub account
@@ -89,9 +92,11 @@ First install [RStudio](https://posit.co/download/rstudio-desktop/){target="_bla
 
 #### Activate Git in RStudio
 Activate Git in RStudio by following these steps:
+
 1. From the Tools menu, click Global Options
 2. Click on the Git/SVN tab
 3. Click Enable version control interface for RStudio projects
+
 ![](https://docs.posit.co/ide/user/ide/guide/tools/images/version-control-options.png){alt="Activating Git in RStudio"}
 
 Next, you need to initialize git (version control) for your Project:
@@ -164,6 +169,9 @@ These are the basics for uploading a project to GitHub. We realize we are skippi
 
 If you want to learn more about git later, you can follow [this great lesson](https://swcarpentry.github.io/git-novice/){target="_blank"}.
 :::
+
+### All prepared for the workshop!
+Now that you published your project on GitHub and know how to push new changes to it you are ready for the workshop!
 
 ::: keypoints
 -   Install Git and create a GitHub account
