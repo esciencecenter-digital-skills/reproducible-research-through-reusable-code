@@ -99,6 +99,9 @@ Activate Git in RStudio by following these steps:
 
 ![](https://docs.posit.co/ide/user/ide/guide/tools/images/version-control-options.png){alt="Activating Git in RStudio"}
 
+#### Configure GitHub in RStudio
+Follow these instructions on [how to configure GitHub for RStudio](https://gist.github.com/Z3tt/3dab3535007acf108391649766409421){target="_blank"}.
+
 Next, you need to initialize git (version control) for your Project:
 
 In Rstudio, open the [RStudio Project](https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects){target="_blank"} that you want to add to GitHub. Go to 'Tools \> Version control \> Project setup...'
