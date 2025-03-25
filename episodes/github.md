@@ -23,7 +23,7 @@ You are going to add your existing project to GitHub. This is important for mult
 
 3.  By publishing your code on GitHub, your code is now available for others for re-use.
 
-The exercises on this page should be done before the workshop. This will help us to focus on improving the code during the workshop day.
+The exercises on this page should be done **before the workshop**. This will help us to focus on improving the code during the workshop day. Please let us know if you are stuck or have any questions by emailing s.vanderburg@esciencecenter.nl and e.klapwijk@essb.eur.nl.
 
 :::: challenge
 ## Exercise: Install Git and create a GitHub account
@@ -72,7 +72,7 @@ If your code is already on GitHub you can explore the following topics:
 
 -   [Familiarize yourself with the basics of `git`](https://swcarpentry.github.io/git-novice/){target="_blank"}
 -   [Learn more about `.gitignore` files](https://swcarpentry.github.io/git-novice/06-ignore.html){target="_blank"}
--   If you already know the basics of `git`, familiarize yourself with best practices in using git with [this lesson](https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html){target="_blank"}. This lesson assumes you have some project with changes to it, you can make some changes in the project you are working on today to mimic the lesson.
+-   If you already know the basics of `git`, familiarize yourself with best practices in using git with [this lesson](https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html){target="_blank"}. This lesson assumes you have some project with changes to it, you can make some changes in your project to mimic the lesson.
 :::
 
 ## Pushing existing code to GitHub
@@ -87,7 +87,12 @@ First install [RStudio](https://posit.co/download/rstudio-desktop/){target="_bla
 ::: group-tab
 ### RStudio
 
-Make sure that next to RStudio, Git is installed on your system and activated in RStudio. Please refer to [these installation instructions from RStudio](https://docs.posit.co/ide/user/ide/guide/tools/version-control.html){target="_blank"} and these instructions on [how to configure GitHub for RStudio](https://gist.github.com/Z3tt/3dab3535007acf108391649766409421){target="_blank"}.
+#### Activate Git in RStudio
+Activate Git in RStudio by following these steps:
+1. From the Tools menu, click Global Options
+2. Click on the Git/SVN tab
+3. Click Enable version control interface for RStudio projects
+![](https://docs.posit.co/ide/user/ide/guide/tools/images/version-control-options.png){alt="Activating Git in RStudio"}
 
 Next, you need to initialize git (version control) for your Project:
 
@@ -130,9 +135,7 @@ A new repository based on your project name will be created on GitHub and will a
 
 The following instructions are based on the use of Visual Studio Code as a code editor, which offers support for development operations like debugging, task running, and version control. You can download [Visual Studio Code here](https://code.visualstudio.com/){target="_blank"} for free (and [disable reporting](https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting){target="_blank"} your usage if you like).
 
-Make sure that next to Visual Studio Code, [Git](https://git-scm.com/downloads){target="_blank"} is installed on your system.
-
-Next, you need to initialize git (version control) for your Project:
+First, you need to initialize git (version control) for your Project:
 
 In Visual Studio Code, open the folder of the project that you want to add to GitHub. Then click on 'Source Control' and 'Initialize Repository':
 
