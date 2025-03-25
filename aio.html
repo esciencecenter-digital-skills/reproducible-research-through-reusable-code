@@ -415,8 +415,10 @@ there).</p></li>
 <li><p>By publishing your code on GitHub, your code is now available for
 others for re-use.</p></li>
 </ol>
-<p>The exercises on this page should be done before the workshop. This
-will help us to focus on improving the code during the workshop day.</p>
+<p>The exercises on this page should be done <strong>before the
+workshop</strong>. This will help us to focus on improving the code
+during the workshop day. Please let us know if you are stuck or have any
+questions by emailing <a href="mailto:s.vanderburg@esciencecenter.nl" class="email">s.vanderburg@esciencecenter.nl</a> and <a href="mailto:e.klapwijk@essb.eur.nl" class="email">e.klapwijk@essb.eur.nl</a>.</p>
 <div id="exercise-install-git-and-create-a-github-account" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -447,11 +449,11 @@ will help us to focus on improving the code during the workshop day.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
 <p>Download the Git for Windows <a href="https://gitforwindows.org/" class="external-link">installer</a>. Then run the
 installer.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
 <p>Most versions of MacOS will have git preinstalled, you can check by
 running the following commands in the Terminal:</p>
 <div class="codewrapper sourceCode" id="cb1">
@@ -467,7 +469,7 @@ running:</p>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="ex">brew</span> install git</span></code></pre>
 </div>
 </div>
-<div id="nav-tabpanel-1-3" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-3">
+<div id="nav-tabpanel-1-3" class="tab-pane" aria-labelledby="nav-tab-1-3" role="tabpanel">
 <p>If Git is not already available on your machine you can install this
 package via your distro’s package manager. Debian/Ubuntu run
 <code>sudo apt-get install git</code> and for Fedora run
@@ -505,8 +507,8 @@ topics:</p>
 <li><a href="https://swcarpentry.github.io/git-novice/06-ignore.html" target="_blank" class="external-link">Learn more about <code>.gitignore</code> files</a></li>
 <li>If you already know the basics of <code>git</code>, familiarize
 yourself with best practices in using git with <a href="https://carpentries-incubator.github.io/python-intermediate-development/14-collaboration-using-git/index.html" target="_blank" class="external-link">this lesson</a>. This lesson assumes you have some
-project with changes to it, you can make some changes in the project you
-are working on today to mimic the lesson.</li>
+project with changes to it, you can make some changes in your project to
+mimic the lesson.</li>
 </ul>
 </div>
 </div>
@@ -541,10 +543,10 @@ Code</a>.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-RStudio" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-RStudio">
-<p>Make sure that next to RStudio, Git is installed on your system and
-activated in RStudio. Please refer to <a href="https://docs.posit.co/ide/user/ide/guide/tools/version-control.html" target="_blank" class="external-link">these installation instructions from RStudio</a> and
-these instructions on <a href="https://gist.github.com/Z3tt/3dab3535007acf108391649766409421" target="_blank" class="external-link">how to configure GitHub for RStudio</a>.</p>
+<div id="nav-tabpanel-1-RStudio" class="tab-pane show active" aria-labelledby="nav-tab-1-RStudio" role="tabpanel">
+<p>Activate Git in RStudio by following these steps: 1. From the Tools
+menu, click Global Options 2. Click on the Git/SVN tab 3. Click Enable
+version control interface for RStudio projects <img src="https://docs.posit.co/ide/user/ide/guide/tools/images/version-control-options.png" alt="Activating Git in RStudio" class="figure"></p>
 <p>Next, you need to initialize git (version control) for your
 Project:</p>
 <p>In Rstudio, open the <a href="https://support.posit.co/hc/en-us/articles/200526207-Using-RStudio-Projects" target="_blank" class="external-link">RStudio Project</a> that you want to add to GitHub. Go
@@ -582,14 +584,12 @@ following commands in the RStudio Console:</p>
 and will automatically open into your browser. Verify that your code is
 there.</p>
 </div>
-<div id="nav-tabpanel-1-VisualStudioCode" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-VisualStudioCode">
+<div id="nav-tabpanel-1-VisualStudioCode" class="tab-pane" aria-labelledby="nav-tab-1-VisualStudioCode" role="tabpanel">
 <p>The following instructions are based on the use of Visual Studio Code
 as a code editor, which offers support for development operations like
 debugging, task running, and version control. You can download <a href="https://code.visualstudio.com/" target="_blank" class="external-link">Visual Studio Code
 here</a> for free (and <a href="https://code.visualstudio.com/docs/supporting/faq#_how-to-disable-telemetry-reporting" target="_blank" class="external-link">disable reporting</a> your usage if you like).</p>
-<p>Make sure that next to Visual Studio Code, <a href="https://git-scm.com/downloads" target="_blank" class="external-link">Git</a> is
-installed on your system.</p>
-<p>Next, you need to initialize git (version control) for your
+<p>First, you need to initialize git (version control) for your
 Project:</p>
 <p>In Visual Studio Code, open the folder of the project that you want
 to add to GitHub. Then click on ‘Source Control’ and ‘Initialize
@@ -784,7 +784,7 @@ try to re-run their code before adapting it.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-1-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-1-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-Pythonvirtualenv">
 <p><strong>A</strong>: You find a couple of library imports across the
 code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -817,7 +817,7 @@ python==3.8
 someproject==1.2.3
 anotherproject==2.3.4</code></pre>
 </div>
-<div id="nav-tabpanel-1-R" class="tab-pane" aria-labelledby="nav-tab-1-R" role="tabpanel">
+<div id="nav-tabpanel-1-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-R">
 <p><strong>A</strong>: You find a couple of <code>library()</code> or
 <code>require()</code> calls across the code but that’s it.</p>
 <p><strong>B</strong>: The README file lists which libraries were used
@@ -866,7 +866,7 @@ anotherproject (== 2.3.4)</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><strong>A</strong>: It will be tedious to collect the dependencies
 one by one. And after the tedious process you will still not know which
@@ -915,7 +915,7 @@ communicate this information?</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-2" class="tab-content">
-<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-2-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-2-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-2-Pythonvirtualenv">
 <p>Try this in your own project:</p>
 <pre class="console"><code>$ pip freeze &gt; requirements.txt</code></pre>
 <p>Have a look at the generated file and discuss what you see.</p>
@@ -925,7 +925,7 @@ communicate this information?</p>
 over to the <a href="https://carpentries-incubator.github.io/python-intermediate-development/12-virtual-environments/index.html#creating-virtual-environments-using-venv" target="_blank" class="external-link">Carpentries Intermediate Research Software Development
 Skills (Python)</a> lesson.</p>
 </div>
-<div id="nav-tabpanel-2-R" class="tab-pane" aria-labelledby="nav-tab-2-R" role="tabpanel">
+<div id="nav-tabpanel-2-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-R">
 <p>This example uses renv.</p>
 <p>First initialize renv (install the package if needed) using
 <code>renv::init()</code>. Then try to “save” and “load” the state of
@@ -963,7 +963,7 @@ dependencies to GitHub:</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-3" class="tab-content">
-<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-3-Pythonvirtualenv" role="tabpanel">
+<div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-3-Pythonvirtualenv">
 <ol style="list-style-type: decimal">
 <li>Mark your changes as staged:</li>
 </ol>
@@ -989,7 +989,7 @@ dependencies to GitHub:</p>
 <pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
 </div>
 </div>
-<div id="nav-tabpanel-3-R" class="tab-pane" aria-labelledby="nav-tab-3-R" role="tabpanel">
+<div id="nav-tabpanel-3-R" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-3-R">
 <ol style="list-style-type: decimal">
 <li>Mark your changes as staged (share not only the lock file, but also
 the .RProfile and activate.R files needed to recreate the
@@ -1221,7 +1221,7 @@ why?</strong></p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <ul>
 <li>
@@ -1419,7 +1419,7 @@ and also easier to write - because you need to make fewer decisions.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
 <p>Head over to <a href="https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#python-coding-style-guide" target="_blank" class="external-link">this lesson about the Python style guide</a>.</p>
 <p>Then take a look at (a part of) your own Python script, and identify
 where the guidelines have not been followed. Check the following:</p>
@@ -1432,7 +1432,7 @@ where the guidelines have not been followed. Check the following:</p>
 <p>Fix the discovered inconsistencies and commit them to your working
 branch on GitHub.</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
+<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
 <p>Head over to <a href="https://style.tidyverse.org/" target="_blank" class="external-link">the Tidyverse style guide</a>.</p>
 <p>Then take a look at (a part of) your own R script, and identify where
 the guidelines have not been followed. Check the following:</p>
@@ -1503,7 +1503,7 @@ have three copies of the same code).</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-2" class="tab-content">
-<div id="nav-tabpanel-2-1" class="tab-pane show active" aria-labelledby="nav-tab-2-1" role="tabpanel">
+<div id="nav-tabpanel-2-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-2-1">
 <p>Let’s open a new R script file and call it functions-lesson.R.</p>
 <p>The general structure of a function is:</p>
 <div class="codewrapper sourceCode" id="cb1">
@@ -1570,7 +1570,7 @@ different from calling any other function:</p>
 <pre class="output" tabindex="0"><code>[1] 373.15</code></pre>
 </div>
 </div>
-<div id="nav-tabpanel-2-2" class="tab-pane" aria-labelledby="nav-tab-2-2" role="tabpanel">
+<div id="nav-tabpanel-2-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-2">
 <p>Let’s open a new Python script file and call it
 <code>functions-lesson.py</code></p>
 <p>The general structure of a function is:</p>
