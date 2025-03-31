@@ -242,24 +242,15 @@ lesson.
 Follow these steps to add the files in which you recorded your dependencies to GitHub:
 
 ::: group-tab
-### Python virtualenv
+### RStudio
 
-1. Mark your changes as staged:
-```bash
-git add requirements.txt
-```
+1. Add your changed files by clicking on "Staged" (share not only the lock file, but also the .RProfile 
+and activate.R files needed to recreate the environment).
+2. Commit your changes by adding a commit message (e.g., Add dependencies) and clicking on "Commit"
+3. Push your changes to GitHub by clicking on "Push"
 
-2. Commit your changes:
-```bash
-git commit -m "Add dependencies"
-```
 
-3. Push your changes to GitHub:
-```bash
-git push origin main
-```
-
-### R
+### Visual Studio Code
 1. Mark your changes as staged (share not only the lock file, but also the .RProfile 
 and activate.R files needed to recreate the environment):
 ```bash
