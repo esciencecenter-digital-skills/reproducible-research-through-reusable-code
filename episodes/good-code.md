@@ -36,15 +36,15 @@ code easier to read and also easier to write - because you need to make fewer de
 
 ::: tab
 ### Python style guide
-Head over to [this lesson about the Python style guide](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#python-coding-style-guide){target="_blank"}.  
+Head over to [this lesson about the Python style guide](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions.html#python-coding-style-guide){target="_blank"}.  
 
 Then take a look at (a part of) your own Python script, and identify where the guidelines 
 have not been followed. Check the following:
 
-- [Indentation](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#indentation){target="_blank"}
-- [Whitespace in Expressions and Statements](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#whitespace-in-expressions-and-statements){target="_blank"}
-- [Naming conventions](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#naming-conventions){target="_blank"}
-- [Comments](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions/index.html#comments){target="_blank"}
+- [Indentation](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions#indentation){target="_blank"}
+- [Whitespace in Expressions and Statements](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions#whitespace-in-expressions-and-statements){target="_blank"}
+- [Naming conventions](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions#naming-conventions){target="_blank"}
+- [Comments](https://carpentries-incubator.github.io/python-intermediate-development/15-coding-conventions#comments){target="_blank"}
 
 Fix the discovered inconsistencies and commit them to your working branch on GitHub.
 
