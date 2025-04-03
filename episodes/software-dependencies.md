@@ -229,7 +229,7 @@ Then try to "save" and "load" the state of your project library using
 See also: <https://rstudio.github.io/renv/articles/renv.html#reproducibility>{target="_blank"}
 
 If you want to learn more about using `renv` in R, head over to the 
-[Introduction to Reproducible Publications with RStudio](https://ucsbcarpentry.github.io/Reproducible-Publications-with-RStudio-Quarto/03-collaboration/05-renv/index.html){target="_blank"} 
+[Introduction to Reproducible Publications with RStudio](https://carpentries-incubator.github.io/reproducible-publications-quarto/03-collaboration/05-renv/index.html){target="_blank"} 
 lesson.
 
 :::
