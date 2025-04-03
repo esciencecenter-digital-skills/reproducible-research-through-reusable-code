@@ -58,20 +58,18 @@ and make your writing bold and clear.
 ## Uploading your README file to GitHub
 Follow these steps to add (the changes to) your README file to GitHub:
 
-1. Mark your changes as staged:
-```bash
-git add README.md
-```
+::: group-tab
+### RStudio
+1. Add your changed files by clicking on 'Staged'.
+2. Commit your changes by adding a commit message (e.g., "Update README") and clicking on 'Commit'.
+3. Push your changes to GitHub by clicking on 'Push'.
 
-2. Commit your changes:
-```bash
-git commit -m "Update README.md"
-```
+### Visual Studio Code
+1. Add your changed files by clicking on the '+' next to 'Changes' or next to the individual files (README.md).
+2. Commit your changes by adding a commit message (e.g., "Update README") and clicking on 'Commit'.
+3. Push your changes to GitHub by clicking on the blue 'Sync Changes' button.
 
-3. Push your changes to GitHub:
-```bash
-git push origin main
-```
+:::
 
 Go to your GitHub repository and refresh the home page to see how the README file 
 becomes a sort of landing page for your project.
