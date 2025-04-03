@@ -326,7 +326,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Software dependencies</h1>
-        <p>Last updated on 2024-12-03 |
+        <p>Last updated on 2025-04-03 |
 
         <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/software-dependencies.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -528,7 +528,7 @@ anotherproject (== 2.3.4)</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p><strong>A</strong>: It will be tedious to collect the dependencies
 one by one. And after the tedious process you will still not know which
@@ -613,62 +613,34 @@ RStudio</a> lesson.</p>
 dependencies to GitHub:</p>
 <div class="tabs">
 <nav><div id="nav-tab-3" class="nav nav-tabs" role="tablist">
-<button class="nav-link active" id="nav-tab-3-Pythonvirtualenv" name="Pythonvirtualenv" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-3-Pythonvirtualenv" type="button" role="tab" aria-controls="nav-tabpanel-3-Pythonvirtualenv" aria-selected="true">
-  <h3 class="tab-header" id="nav-tab-heading-3-Pythonvirtualenv">
-  Python virtualenv
+<button class="nav-link active" id="nav-tab-3-RStudio" name="RStudio" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-3-RStudio" type="button" role="tab" aria-controls="nav-tabpanel-3-RStudio" aria-selected="true">
+  <h3 class="tab-header" id="nav-tab-heading-3-RStudio">
+  RStudio
   </h3>
 </button>
-<button class="nav-link" id="nav-tab-3-R" name="R" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-3-R" type="button" role="tab" aria-controls="nav-tabpanel-3-R" aria-selected="false">
-  <h3 class="tab-header" id="nav-tab-heading-3-R">
-  R
+<button class="nav-link" id="nav-tab-3-VisualStudioCode" name="VisualStudioCode" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-3-VisualStudioCode" type="button" role="tab" aria-controls="nav-tabpanel-3-VisualStudioCode" aria-selected="false">
+  <h3 class="tab-header" id="nav-tab-heading-3-VisualStudioCode">
+  Visual Studio Code
   </h3>
 </button>
 </div>
 </nav><div id="nav-tabContent-3" class="tab-content">
 <div id="nav-tabpanel-3-Pythonvirtualenv" class="tab-pane show active" aria-labelledby="nav-tab-3-Pythonvirtualenv" role="tabpanel">
-<ol style="list-style-type: decimal"><li>Mark your changes as staged:</li>
-</ol><div class="codewrapper sourceCode" id="cb11">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" tabindex="-1"></a><span class="fu">git</span> add requirements.txt</span></code></pre>
-</div>
-<ol start="2" style="list-style-type: decimal"><li>Commit your changes:</li>
-</ol><div class="codewrapper sourceCode" id="cb12">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add dependencies"</span></span></code></pre>
-</div>
-<ol start="3" style="list-style-type: decimal"><li>Push your changes to GitHub:</li>
-</ol><div class="codewrapper sourceCode" id="cb13">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
-</div>
-</div>
+<ol style="list-style-type: decimal"><li>Add your changed files by clicking on ‘Staged’ (share not only the
+lock file, but also the .RProfile and activate.R files needed to
+recreate the environment).</li>
+<li>Commit your changes by adding a commit message (e.g., “Add
+dependencies”) and clicking on ‘Commit’.</li>
+<li>Push your changes to GitHub by clicking on ‘Push’.</li>
+</ol></div>
 <div id="nav-tabpanel-3-R" class="tab-pane" aria-labelledby="nav-tab-3-R" role="tabpanel">
-<ol style="list-style-type: decimal"><li>Mark your changes as staged (share not only the lock file, but also
-the .RProfile and activate.R files needed to recreate the
-environment):</li>
-</ol><div class="codewrapper sourceCode" id="cb14">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" tabindex="-1"></a><span class="fu">git</span> add renv.lock</span>
-<span id="cb14-2"><a href="#cb14-2" tabindex="-1"></a><span class="fu">git</span> add .RProfile </span>
-<span id="cb14-3"><a href="#cb14-3" tabindex="-1"></a><span class="fu">git</span> add renv/activate.R</span></code></pre>
-</div>
-<ol start="2" style="list-style-type: decimal"><li>Commit your changes:</li>
-</ol><div class="codewrapper sourceCode" id="cb15">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Add dependencies"</span></span></code></pre>
-</div>
-<ol start="3" style="list-style-type: decimal"><li>Push your changes to GitHub:</li>
-</ol><div class="codewrapper sourceCode" id="cb16">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
-</div>
-</div>
+<ol style="list-style-type: decimal"><li>Add your changed files by clicking on the ‘+’ next to ‘Changes’ or
+next to the individual files (requirements.txt).</li>
+<li>Commit your changes by adding a commit message (e.g., “Add
+dependencies”) and clicking on ‘Commit’.</li>
+<li>Push your changes to GitHub by clicking on the blue ‘Sync Changes’
+button.</li>
+</ol></div>
 </div>
 </div>
 </div>
@@ -751,8 +723,8 @@ any links that you are not going to use.
   "url": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/software-dependencies.html",
   "identifier": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/software-dependencies.html",
   "dateCreated": "2024-11-27",
-  "dateModified": "2024-12-03",
-  "datePublished": "2025-04-01"
+  "dateModified": "2025-04-03",
+  "datePublished": "2025-04-03"
 }
 
   </script><script>

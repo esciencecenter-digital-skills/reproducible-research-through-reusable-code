@@ -327,7 +327,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Document your research software</h1>
-        <p>Last updated on 2024-12-03 |
+        <p>Last updated on 2025-04-03 |
 
         <a href="https://github.com/esciencecenter-digital-skills/reproducible-research-through-reusable-code/edit/main/episodes/documentation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -398,23 +398,35 @@ file and make your writing bold and clear.</p>
 <div class="callout-content">
 <p>Follow these steps to add (the changes to) your README file to
 GitHub:</p>
-<ol style="list-style-type: decimal"><li>Mark your changes as staged:</li>
-</ol><div class="codewrapper sourceCode" id="cb1">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">git</span> add README.md</span></code></pre>
+<div class="tabs">
+<nav><div id="nav-tab-1" class="nav nav-tabs" role="tablist">
+<button class="nav-link active" id="nav-tab-1-RStudio" name="RStudio" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-1-RStudio" type="button" role="tab" aria-controls="nav-tabpanel-1-RStudio" aria-selected="true">
+  <h3 class="tab-header" id="nav-tab-heading-1-RStudio">
+  RStudio
+  </h3>
+</button>
+<button class="nav-link" id="nav-tab-1-VisualStudioCode" name="VisualStudioCode" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-1-VisualStudioCode" type="button" role="tab" aria-controls="nav-tabpanel-1-VisualStudioCode" aria-selected="false">
+  <h3 class="tab-header" id="nav-tab-heading-1-VisualStudioCode">
+  Visual Studio Code
+  </h3>
+</button>
 </div>
-<ol start="2" style="list-style-type: decimal"><li>Commit your changes:</li>
-</ol><div class="codewrapper sourceCode" id="cb2">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="fu">git</span> commit <span class="at">-m</span> <span class="st">"Update README.md"</span></span></code></pre>
+</nav><div id="nav-tabContent-1" class="tab-content">
+<div id="nav-tabpanel-1-RStudio" class="tab-pane show active" aria-labelledby="nav-tab-1-RStudio" role="tabpanel">
+<ol style="list-style-type: decimal"><li>Add your changed files by clicking on ‘Staged’.</li>
+<li>Commit your changes by adding a commit message (e.g., “Update
+README”) and clicking on ‘Commit’.</li>
+<li>Push your changes to GitHub by clicking on ‘Push’.</li>
+</ol></div>
+<div id="nav-tabpanel-1-VisualStudioCode" class="tab-pane" aria-labelledby="nav-tab-1-VisualStudioCode" role="tabpanel">
+<ol style="list-style-type: decimal"><li>Add your changed files by clicking on the ‘+’ next to ‘Changes’ or
+next to the individual files (README.md).</li>
+<li>Commit your changes by adding a commit message (e.g., “Update
+README”) and clicking on ‘Commit’.</li>
+<li>Push your changes to GitHub by clicking on the blue ‘Sync Changes’
+button.</li>
+</ol></div>
 </div>
-<ol start="3" style="list-style-type: decimal"><li>Push your changes to GitHub:</li>
-</ol><div class="codewrapper sourceCode" id="cb3">
-<h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
-</h3>
-<pre class="sourceCode bash" tabindex="0"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a><span class="fu">git</span> push origin main</span></code></pre>
 </div>
 <p>Go to your GitHub repository and refresh the home page to see how the
 README file becomes a sort of landing page for your project.</p>
@@ -436,19 +448,19 @@ README file becomes a sort of landing page for your project.</p>
 </ul></div>
 <div class="section level4">
 <h4 id="readable-code-vs-commented-code">Readable code vs commented code<a class="anchor" aria-label="anchor" href="#readable-code-vs-commented-code"></a></h4>
-<div class="codewrapper sourceCode" id="cb4">
+<div class="codewrapper sourceCode" id="cb1">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a><span class="co"># convert from degrees celsius to fahrenheit</span></span>
-<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a><span class="kw">def</span> convert(d):</span>
-<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>    <span class="cf">return</span> d <span class="op">*</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">+</span> <span class="dv">32</span></span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="co"># convert from degrees celsius to fahrenheit</span></span>
+<span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="kw">def</span> convert(d):</span>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a>    <span class="cf">return</span> d <span class="op">*</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">+</span> <span class="dv">32</span></span></code></pre>
 </div>
 <p>vs</p>
-<div class="codewrapper sourceCode" id="cb5">
+<div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="kw">def</span> celsius_to_fahrenheit(degrees):</span>
-<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a>    <span class="cf">return</span> degrees <span class="op">*</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">+</span> <span class="dv">32</span></span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" tabindex="-1"></a><span class="kw">def</span> celsius_to_fahrenheit(degrees):</span>
+<span id="cb2-2"><a href="#cb2-2" tabindex="-1"></a>    <span class="cf">return</span> degrees <span class="op">*</span> <span class="dv">5</span> <span class="op">/</span> <span class="dv">9</span> <span class="op">+</span> <span class="dv">32</span></span></code></pre>
 </div>
 <div id="writing-good-comments---in-code-1-comments" class="callout challenge">
 <div class="callout-square">
@@ -460,20 +472,20 @@ README file becomes a sort of landing page for your project.</p>
 <p>Let’s take a look at two example comments (comments in Python start
 with <code>#</code>):</p>
 <p><strong>Comment A</strong></p>
-<div class="codewrapper sourceCode" id="cb6">
+<div class="codewrapper sourceCode" id="cb3">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a>  <span class="co"># now we check if temperature is below -50</span></span>
-<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>  <span class="cf">if</span> temperature <span class="op">&lt;</span> <span class="op">-</span><span class="dv">50</span>:</span>
-<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"ERROR: temperature is too low"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" tabindex="-1"></a>  <span class="co"># now we check if temperature is below -50</span></span>
+<span id="cb3-2"><a href="#cb3-2" tabindex="-1"></a>  <span class="cf">if</span> temperature <span class="op">&lt;</span> <span class="op">-</span><span class="dv">50</span>:</span>
+<span id="cb3-3"><a href="#cb3-3" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"ERROR: temperature is too low"</span>)</span></code></pre>
 </div>
 <p><strong>Comment B</strong></p>
-<div class="codewrapper sourceCode" id="cb7">
+<div class="codewrapper sourceCode" id="cb4">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" tabindex="-1"></a>  <span class="co"># we regard temperatures below -50 degrees as measurement errors</span></span>
-<span id="cb7-2"><a href="#cb7-2" tabindex="-1"></a>  <span class="cf">if</span> temperature <span class="op">&lt;</span> <span class="op">-</span><span class="dv">50</span>:</span>
-<span id="cb7-3"><a href="#cb7-3" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"ERROR: temperature is too low"</span>)</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" tabindex="-1"></a>  <span class="co"># we regard temperatures below -50 degrees as measurement errors</span></span>
+<span id="cb4-2"><a href="#cb4-2" tabindex="-1"></a>  <span class="cf">if</span> temperature <span class="op">&lt;</span> <span class="op">-</span><span class="dv">50</span>:</span>
+<span id="cb4-3"><a href="#cb4-3" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"ERROR: temperature is too low"</span>)</span></code></pre>
 </div>
 <p><strong>Which of these comments is more useful? Can you explain
 why?</strong></p>
@@ -507,36 +519,36 @@ redundant commentary.</li>
 <p>Here is function <code>fahrenheit_to_celsius</code> which converts
 temperature in Fahrenheit to Celsius.</p>
 <p>The first set of examples uses <strong>regular comments</strong>:</p>
-<div class="codewrapper sourceCode" id="cb8">
+<div class="codewrapper sourceCode" id="cb5">
 <h3 class="code-label">PYTHON<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" tabindex="-1"></a><span class="co"># This function converts a temperature in Fahrenheit to Celsius.</span></span>
-<span id="cb8-2"><a href="#cb8-2" tabindex="-1"></a><span class="kw">def</span> fahrenheit_to_celsius(temp_f: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
-<span id="cb8-3"><a href="#cb8-3" tabindex="-1"></a>    temp_c <span class="op">=</span> (temp_f <span class="op">-</span> <span class="fl">32.0</span>) <span class="op">*</span> (<span class="fl">5.0</span><span class="op">/</span><span class="fl">9.0</span>)</span>
-<span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a>    <span class="cf">return</span> temp_c</span></code></pre>
+<pre class="sourceCode python" tabindex="0"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" tabindex="-1"></a><span class="co"># This function converts a temperature in Fahrenheit to Celsius.</span></span>
+<span id="cb5-2"><a href="#cb5-2" tabindex="-1"></a><span class="kw">def</span> fahrenheit_to_celsius(temp_f: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb5-3"><a href="#cb5-3" tabindex="-1"></a>    temp_c <span class="op">=</span> (temp_f <span class="op">-</span> <span class="fl">32.0</span>) <span class="op">*</span> (<span class="fl">5.0</span><span class="op">/</span><span class="fl">9.0</span>)</span>
+<span id="cb5-4"><a href="#cb5-4" tabindex="-1"></a>    <span class="cf">return</span> temp_c</span></code></pre>
 </div>
 <p>The second set uses <strong>docstrings or similar concepts</strong>.
 Please compare the two (above and below):</p>
-<div class="codewrapper sourceCode" id="cb9">
+<div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">PY<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
 </h3>
-<pre class="sourceCode py" tabindex="0"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" tabindex="-1"></a><span class="kw">def</span> fahrenheit_to_celsius(temp_f: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
-<span id="cb9-2"><a href="#cb9-2" tabindex="-1"></a>    <span class="co">"""</span></span>
-<span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a><span class="co">    Converts a temperature in Fahrenheit to Celsius.</span></span>
-<span id="cb9-4"><a href="#cb9-4" tabindex="-1"></a></span>
-<span id="cb9-5"><a href="#cb9-5" tabindex="-1"></a><span class="co">    Parameters</span></span>
-<span id="cb9-6"><a href="#cb9-6" tabindex="-1"></a><span class="co">    ----------</span></span>
-<span id="cb9-7"><a href="#cb9-7" tabindex="-1"></a><span class="co">    temp_f : float</span></span>
-<span id="cb9-8"><a href="#cb9-8" tabindex="-1"></a><span class="co">        The temperature in Fahrenheit.</span></span>
-<span id="cb9-9"><a href="#cb9-9" tabindex="-1"></a></span>
-<span id="cb9-10"><a href="#cb9-10" tabindex="-1"></a><span class="co">    Returns</span></span>
-<span id="cb9-11"><a href="#cb9-11" tabindex="-1"></a><span class="co">    -------</span></span>
-<span id="cb9-12"><a href="#cb9-12" tabindex="-1"></a><span class="co">    float</span></span>
-<span id="cb9-13"><a href="#cb9-13" tabindex="-1"></a><span class="co">        The temperature in Celsius.</span></span>
-<span id="cb9-14"><a href="#cb9-14" tabindex="-1"></a><span class="co">    """</span></span>
-<span id="cb9-15"><a href="#cb9-15" tabindex="-1"></a></span>
-<span id="cb9-16"><a href="#cb9-16" tabindex="-1"></a>    temp_c <span class="op">=</span> (temp_f <span class="op">-</span> <span class="fl">32.0</span>) <span class="op">*</span> (<span class="fl">5.0</span><span class="op">/</span><span class="fl">9.0</span>)</span>
-<span id="cb9-17"><a href="#cb9-17" tabindex="-1"></a>    <span class="cf">return</span> temp_c</span></code></pre>
+<pre class="sourceCode py" tabindex="0"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" tabindex="-1"></a><span class="kw">def</span> fahrenheit_to_celsius(temp_f: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb6-2"><a href="#cb6-2" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb6-3"><a href="#cb6-3" tabindex="-1"></a><span class="co">    Converts a temperature in Fahrenheit to Celsius.</span></span>
+<span id="cb6-4"><a href="#cb6-4" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" tabindex="-1"></a><span class="co">    Parameters</span></span>
+<span id="cb6-6"><a href="#cb6-6" tabindex="-1"></a><span class="co">    ----------</span></span>
+<span id="cb6-7"><a href="#cb6-7" tabindex="-1"></a><span class="co">    temp_f : float</span></span>
+<span id="cb6-8"><a href="#cb6-8" tabindex="-1"></a><span class="co">        The temperature in Fahrenheit.</span></span>
+<span id="cb6-9"><a href="#cb6-9" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="#cb6-10" tabindex="-1"></a><span class="co">    Returns</span></span>
+<span id="cb6-11"><a href="#cb6-11" tabindex="-1"></a><span class="co">    -------</span></span>
+<span id="cb6-12"><a href="#cb6-12" tabindex="-1"></a><span class="co">    float</span></span>
+<span id="cb6-13"><a href="#cb6-13" tabindex="-1"></a><span class="co">        The temperature in Celsius.</span></span>
+<span id="cb6-14"><a href="#cb6-14" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb6-15"><a href="#cb6-15" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" tabindex="-1"></a>    temp_c <span class="op">=</span> (temp_f <span class="op">-</span> <span class="fl">32.0</span>) <span class="op">*</span> (<span class="fl">5.0</span><span class="op">/</span><span class="fl">9.0</span>)</span>
+<span id="cb6-17"><a href="#cb6-17" tabindex="-1"></a>    <span class="cf">return</span> temp_c</span></code></pre>
 </div>
 <p>Docstrings can do a bit more than just comments:</p>
 <ul><li><p>Tools can generate help text automatically from the
@@ -651,8 +663,8 @@ any links that you are not going to use.
   "url": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/documentation.html",
   "identifier": "https://esciencecenter-digital-skills.github.io/reproducible-research-through-reusable-code/documentation.html",
   "dateCreated": "2024-11-27",
-  "dateModified": "2024-12-03",
-  "datePublished": "2025-04-01"
+  "dateModified": "2025-04-03",
+  "datePublished": "2025-04-03"
 }
 
   </script><script>
